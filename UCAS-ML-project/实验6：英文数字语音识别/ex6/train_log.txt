@@ -1,0 +1,3098 @@
+cd 'c:\Users\95236\Desktop\ex6'; ${env:PYTHONIOENCODING}='UTF-8'; ${env:PYTHONUNBUFFERED}='1'; & 'D:\Anaconda3\envs\tensorflow\python.exe' 'c:\Users\95236\.vscode\extensions\ms-python.python-2019.5.18875\pythonFiles\ptvsd_launcher.py' '--default' '--client' '--host' 'localhost' '--port' '58634' 'c:\Users\95236\Desktop\ex6\train.py'
+read train files down
+read valid files down
+read test files down
+conv-maxpool-2
+conv-maxpool-3
+conv-maxpool-4
+conv-maxpool-5
+WARNING:tensorflow:From c:\Users\95236\Desktop\ex6\train.py:56: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-06-17 21:06:54.845580: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-06-17 21:06:55.747132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1411] Found device 0 with properties:
+name: GeForce GTX 1050 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.62
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2019-06-17 21:06:55.753466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2019-06-17 21:06:56.213547: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-17 21:06:56.216913: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0
+2019-06-17 21:06:56.218990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N
+2019-06-17 21:06:56.221144: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3010 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 1
+Steps:20
+train_loss:2.2014174 train accuracy:0.1953125   valid_loss:2.2327464 valid accuracy:0.17769131
+Epoch: 2
+Steps:40
+train_loss:2.119727 train accuracy:0.3125       valid_loss:2.1511657 valid accuracy:0.24254215
+Epoch: 3
+Steps:60
+train_loss:2.1006842 train accuracy:0.265625    valid_loss:2.0726962 valid accuracy:0.28664073
+Epoch: 4
+Steps:80
+train_loss:1.9133458 train accuracy:0.328125    valid_loss:1.9994109 valid accuracy:0.23346303
+Epoch: 5
+Steps:100
+train_loss:1.834378 train accuracy:0.4453125    valid_loss:1.8852365 valid accuracy:0.4085603
+Epoch: 6
+Steps:120
+train_loss:1.7545738 train accuracy:0.4765625   valid_loss:1.7845689 valid accuracy:0.42023346
+Epoch: 7
+Steps:140
+train_loss:1.6335156 train accuracy:0.5234375   valid_loss:1.705155 valid accuracy:0.4241245
+Epoch: 8
+Steps:160
+train_loss:1.53691 train accuracy:0.5078125     valid_loss:1.6124365 valid accuracy:0.48638132
+Epoch: 9
+Steps:180
+train_loss:1.4007865 train accuracy:0.5625      valid_loss:1.5378321 valid accuracy:0.49546045
+Epoch: 10
+Steps:200
+train_loss:1.4662325 train accuracy:0.5234375   valid_loss:1.44374 valid accuracy:0.5226978
+Steps:220
+train_loss:1.3684832 train accuracy:0.4848485   valid_loss:1.3778886 valid accuracy:0.53696495
+Epoch: 11
+Steps:240
+train_loss:1.2753634 train accuracy:0.6640625   valid_loss:1.3063692 valid accuracy:0.5538262
+Epoch: 12
+Steps:260
+train_loss:1.2444713 train accuracy:0.625       valid_loss:1.2482979 valid accuracy:0.60700387
+Epoch: 13
+...
+Steps:1420
+train_loss:0.23787461 train accuracy:0.953125   valid_loss:0.34110603 valid accuracy:0.8819715
+Epoch: 66
+Steps:1440
+train_loss:0.1790529 train accuracy:0.953125    valid_loss:0.3548532 valid accuracy:0.8754864
+Epoch: 67
+Steps:1460
+train_loss:0.20216599 train accuracy:0.953125   valid_loss:0.36970305 valid accuracy:0.8625162
+Epoch: 68
+Steps:1480
+train_loss:0.19367802 train accuracy:0.9609375  valid_loss:0.34481797 valid accuracy:0.8858625
+Epoch: 69
+Steps:1500
+train_loss:0.20722228 train accuracy:0.953125   valid_loss:0.33800393 valid accuracy:0.8858625
+Epoch: 70
+Steps:1520
+train_loss:0.16875376 train accuracy:0.953125   valid_loss:0.35192236 valid accuracy:0.8780804
+Steps:1540
+train_loss:0.23632044 train accuracy:0.969697   valid_loss:0.33516186 valid accuracy:0.8806744
+Epoch: 71
+Steps:1560
+train_loss:0.18797156 train accuracy:0.953125   valid_loss:0.3328668 valid accuracy:0.8845655
+Epoch: 72
+Steps:1580
+train_loss:0.19814959 train accuracy:0.96875    valid_loss:0.31930715 valid accuracy:0.8975357
+Epoch: 73
+Steps:1600
+train_loss:0.23326181 train accuracy:0.9375     valid_loss:0.3131894 valid accuracy:0.9053178
+Epoch: 74
+Steps:1620
+train_loss:0.15731277 train accuracy:0.9921875  valid_loss:0.30359128 valid accuracy:0.8962386
+Epoch: 75
+Steps:1640
+train_loss:0.2033735 train accuracy:0.9609375   valid_loss:0.30201244 valid accuracy:0.9001297
+Epoch: 76
+Steps:1660
+train_loss:0.1912863 train accuracy:0.9765625   valid_loss:0.29249665 valid accuracy:0.9001297
+Epoch: 77
+Steps:1680
+train_loss:0.14895128 train accuracy:0.9765625  valid_loss:0.30675864 valid accuracy:0.8962386
+Epoch: 78
+Steps:1700
+train_loss:0.20864686 train accuracy:0.9609375  valid_loss:0.300059 valid accuracy:0.8975357
+Epoch: 79
+Steps:1720
+train_loss:0.14068957 train accuracy:0.9609375  valid_loss:0.29641142 valid accuracy:0.8949416
+Epoch: 80
+Steps:1740
+train_loss:0.1722093 train accuracy:0.9765625   valid_loss:0.28574005 valid accuracy:0.9053178
+Steps:1760
+train_loss:0.19172934 train accuracy:0.93939394 valid_loss:0.29220444 valid accuracy:0.8962386
+Epoch: 81
+Steps:1780
+train_loss:0.19207656 train accuracy:0.9375     valid_loss:0.27302274 valid accuracy:0.9143969
+Epoch: 82
+Steps:1800
+train_loss:0.15435706 train accuracy:0.984375   valid_loss:0.26454592 valid accuracy:0.9130999
+Epoch: 83
+Steps:1820
+train_loss:0.13947816 train accuracy:0.9765625  valid_loss:0.2685649 valid accuracy:0.9027237
+Epoch: 84
+Steps:1840
+train_loss:0.12905768 train accuracy:0.9765625  valid_loss:0.28471708 valid accuracy:0.8975357
+Epoch: 85
+Steps:1860
+train_loss:0.1121442 train accuracy:0.984375    valid_loss:0.26471728 valid accuracy:0.9066148
+Epoch: 86
+Steps:1880
+train_loss:0.12424646 train accuracy:0.984375   valid_loss:0.27135983 valid accuracy:0.91050583
+Epoch: 87
+Steps:1900
+train_loss:0.166475 train accuracy:0.953125     valid_loss:0.31782654 valid accuracy:0.89364463
+Epoch: 88
+Steps:1920
+train_loss:0.13853732 train accuracy:0.9765625  valid_loss:0.2687728 valid accuracy:0.9143969
+Epoch: 89
+Steps:1940
+train_loss:0.12777951 train accuracy:0.9765625  valid_loss:0.27877733 valid accuracy:0.90920883
+Epoch: 90
+Steps:1960
+train_loss:0.13499056 train accuracy:0.984375   valid_loss:0.268284 valid accuracy:0.9053178
+Steps:1980
+train_loss:0.18088837 train accuracy:0.90909094 valid_loss:0.24296656 valid accuracy:0.91958493
+Epoch: 91
+Steps:2000
+train_loss:0.11322584 train accuracy:0.984375   valid_loss:0.24354528 valid accuracy:0.920882
+Epoch: 92
+Steps:2020
+train_loss:0.13607071 train accuracy:0.984375   valid_loss:0.2880593 valid accuracy:0.8949416
+Epoch: 93
+Steps:2040
+train_loss:0.09725766 train accuracy:0.984375   valid_loss:0.27192873 valid accuracy:0.9040207
+Epoch: 94
+Steps:2060
+train_loss:0.121405214 train accuracy:0.9765625 valid_loss:0.24436074 valid accuracy:0.920882
+Epoch: 95
+Steps:2080
+train_loss:0.12233999 train accuracy:1.0        valid_loss:0.23448916 valid accuracy:0.91958493
+Epoch: 96
+Steps:2100
+train_loss:0.102672264 train accuracy:0.984375  valid_loss:0.22856174 valid accuracy:0.9156939
+Epoch: 97
+Steps:2120
+train_loss:0.09367454 train accuracy:0.9921875  valid_loss:0.23217888 valid accuracy:0.9143969
+Epoch: 98
+Steps:2140
+train_loss:0.11042677 train accuracy:0.96875    valid_loss:0.2310431 valid accuracy:0.922179
+Epoch: 99
+Steps:2160
+train_loss:0.087542035 train accuracy:0.9921875 valid_loss:0.22519435 valid accuracy:0.922179
+Epoch: 100
+Steps:2180
+train_loss:0.06786618 train accuracy:1.0        valid_loss:0.24417427 valid accuracy:0.90920883
+Steps:2200
+train_loss:0.08237588 train accuracy:0.969697   valid_loss:0.22510304 valid accuracy:0.920882
+Epoch: 101
+Steps:2220
+train_loss:0.10273231 train accuracy:0.984375   valid_loss:0.23579592 valid accuracy:0.922179
+Epoch: 102
+Steps:2240
+train_loss:0.1128127 train accuracy:0.9765625   valid_loss:0.21651389 valid accuracy:0.9299611
+Epoch: 103
+Steps:2260
+train_loss:0.09558276 train accuracy:0.9921875  valid_loss:0.21441771 valid accuracy:0.922179
+Epoch: 104
+Steps:2280
+train_loss:0.071610585 train accuracy:1.0       valid_loss:0.23452517 valid accuracy:0.91699094
+Epoch: 105
+Steps:2300
+train_loss:0.112218164 train accuracy:0.9765625 valid_loss:0.20550711 valid accuracy:0.92736703
+Epoch: 106
+Steps:2320
+train_loss:0.08641717 train accuracy:0.9921875  valid_loss:0.21214801 valid accuracy:0.92736703
+Epoch: 107
+Steps:2340
+train_loss:0.047946084 train accuracy:1.0       valid_loss:0.21180971 valid accuracy:0.9299611
+Epoch: 108
+Steps:2360
+train_loss:0.07636217 train accuracy:0.9921875  valid_loss:0.2228086 valid accuracy:0.93255514
+Epoch: 109
+Steps:2380
+train_loss:0.05392765 train accuracy:1.0        valid_loss:0.22123735 valid accuracy:0.9312581
+Epoch: 110
+Steps:2400
+train_loss:0.0789412 train accuracy:1.0 valid_loss:0.20874007 valid accuracy:0.92736703
+Steps:2420
+train_loss:0.060001493 train accuracy:1.0       valid_loss:0.2100792 valid accuracy:0.92607003
+Epoch: 111
+Steps:2440
+train_loss:0.058767084 train accuracy:1.0       valid_loss:0.19609895 valid accuracy:0.9390402
+Epoch: 112
+Steps:2460
+train_loss:0.05619754 train accuracy:1.0        valid_loss:0.20904201 valid accuracy:0.93255514
+Epoch: 113
+Steps:2480
+train_loss:0.10026253 train accuracy:1.0        valid_loss:0.18735266 valid accuracy:0.94293123
+Epoch: 114
+Steps:2500
+train_loss:0.062998325 train accuracy:0.984375  valid_loss:0.18352693 valid accuracy:0.94293123
+Epoch: 115
+Steps:2520
+train_loss:0.043508425 train accuracy:1.0       valid_loss:0.18713096 valid accuracy:0.94033724
+Epoch: 116
+Steps:2540
+train_loss:0.06120296 train accuracy:1.0        valid_loss:0.191997 valid accuracy:0.93514913
+Epoch: 117
+Steps:2560
+train_loss:0.06652863 train accuracy:0.9921875  valid_loss:0.18769932 valid accuracy:0.94033724
+Epoch: 118
+Steps:2580
+train_loss:0.043724474 train accuracy:1.0       valid_loss:0.19027744 valid accuracy:0.9377432
+Epoch: 119
+Steps:2600
+train_loss:0.06727734 train accuracy:1.0        valid_loss:0.18593445 valid accuracy:0.94293123
+Epoch: 120
+Steps:2620
+train_loss:0.06526389 train accuracy:0.9921875  valid_loss:0.18190491 valid accuracy:0.94811934
+Steps:2640
+train_loss:0.07834406 train accuracy:0.969697   valid_loss:0.18256798 valid accuracy:0.93514913
+Epoch: 121
+Steps:2660
+train_loss:0.060224924 train accuracy:1.0       valid_loss:0.1920035 valid accuracy:0.94163424
+Epoch: 122
+Steps:2680
+train_loss:0.060618147 train accuracy:0.9921875 valid_loss:0.19645491 valid accuracy:0.92736703
+Epoch: 123
+Steps:2700
+train_loss:0.062319465 train accuracy:1.0       valid_loss:0.18154418 valid accuracy:0.9442283
+Epoch: 124
+Steps:2720
+train_loss:0.05397686 train accuracy:0.9921875  valid_loss:0.18714494 valid accuracy:0.9377432
+Epoch: 125
+Steps:2740
+train_loss:0.07194416 train accuracy:0.9921875  valid_loss:0.17949232 valid accuracy:0.9442283
+Epoch: 126
+Steps:2760
+train_loss:0.056504935 train accuracy:1.0       valid_loss:0.19640289 valid accuracy:0.92607003
+Epoch: 127
+Steps:2780
+train_loss:0.049828112 train accuracy:1.0       valid_loss:0.18123658 valid accuracy:0.9377432
+Epoch: 128
+Steps:2800
+train_loss:0.049859133 train accuracy:1.0       valid_loss:0.17637248 valid accuracy:0.9468223
+Epoch: 129
+Steps:2820
+train_loss:0.0630102 train accuracy:0.9921875   valid_loss:0.166736 valid accuracy:0.9546044
+Epoch: 130
+Steps:2840
+train_loss:0.049099177 train accuracy:1.0       valid_loss:0.20895271 valid accuracy:0.93514913
+Steps:2860
+train_loss:0.027681539 train accuracy:1.0       valid_loss:0.17764664 valid accuracy:0.9364462
+Epoch: 131
+Steps:2880
+train_loss:0.04069629 train accuracy:1.0        valid_loss:0.17955507 valid accuracy:0.9390402
+Epoch: 132
+Steps:2900
+train_loss:0.032302834 train accuracy:1.0       valid_loss:0.17755426 valid accuracy:0.9390402
+Epoch: 133
+Steps:2920
+train_loss:0.039482832 train accuracy:1.0       valid_loss:0.16562812 valid accuracy:0.94293123
+Epoch: 134
+Steps:2940
+train_loss:0.024649514 train accuracy:1.0       valid_loss:0.16749753 valid accuracy:0.94811934
+Epoch: 135
+Steps:2960
+train_loss:0.040349364 train accuracy:1.0       valid_loss:0.16457 valid accuracy:0.94811934
+Epoch: 136
+Steps:2980
+train_loss:0.03980556 train accuracy:0.9921875  valid_loss:0.16755292 valid accuracy:0.94811934
+Epoch: 137
+Steps:3000
+train_loss:0.035024732 train accuracy:1.0       valid_loss:0.1628546 valid accuracy:0.94941634
+Epoch: 138
+Steps:3020
+train_loss:0.03556276 train accuracy:1.0        valid_loss:0.16164447 valid accuracy:0.94811934
+Epoch: 139
+Steps:3040
+train_loss:0.036794007 train accuracy:1.0       valid_loss:0.18198496 valid accuracy:0.9390402
+Epoch: 140
+Steps:3060
+train_loss:0.05547551 train accuracy:0.9921875  valid_loss:0.18006416 valid accuracy:0.93514913
+Steps:3080
+train_loss:0.010015838 train accuracy:1.0       valid_loss:0.16541746 valid accuracy:0.9468223
+Epoch: 141
+Steps:3100
+train_loss:0.040612217 train accuracy:1.0       valid_loss:0.18200743 valid accuracy:0.9364462
+Epoch: 142
+Steps:3120
+train_loss:0.029609587 train accuracy:1.0       valid_loss:0.15622263 valid accuracy:0.9533074
+Epoch: 143
+Steps:3140
+train_loss:0.0404692 train accuracy:1.0 valid_loss:0.15925486 valid accuracy:0.9468223
+Epoch: 144
+Steps:3160
+train_loss:0.044738717 train accuracy:1.0       valid_loss:0.15635668 valid accuracy:0.95071334
+Epoch: 145
+Steps:3180
+train_loss:0.02815332 train accuracy:1.0        valid_loss:0.16488564 valid accuracy:0.9468223
+Epoch: 146
+Steps:3200
+train_loss:0.043350853 train accuracy:0.9921875 valid_loss:0.16893645 valid accuracy:0.9364462
+Epoch: 147
+Steps:3220
+train_loss:0.025022227 train accuracy:1.0       valid_loss:0.15274344 valid accuracy:0.9520104
+Epoch: 148
+Steps:3240
+train_loss:0.029102154 train accuracy:1.0       valid_loss:0.14607851 valid accuracy:0.95719844
+Epoch: 149
+Steps:3260
+train_loss:0.031503364 train accuracy:1.0       valid_loss:0.16106802 valid accuracy:0.9455253
+Epoch: 150
+Steps:3280
+train_loss:0.02617199 train accuracy:1.0        valid_loss:0.14726807 valid accuracy:0.95719844
+Steps:3300
+train_loss:0.04183851 train accuracy:1.0        valid_loss:0.14736132 valid accuracy:0.95719844
+Epoch: 151
+Steps:3320
+train_loss:0.026674213 train accuracy:1.0       valid_loss:0.14705577 valid accuracy:0.95719844
+Epoch: 152
+Steps:3340
+train_loss:0.024731856 train accuracy:1.0       valid_loss:0.14781782 valid accuracy:0.9468223
+Epoch: 153
+Steps:3360
+train_loss:0.022979738 train accuracy:1.0       valid_loss:0.14373687 valid accuracy:0.9520104
+Epoch: 154
+Steps:3380
+train_loss:0.028147552 train accuracy:1.0       valid_loss:0.1456633 valid accuracy:0.9520104
+Epoch: 155
+Steps:3400
+train_loss:0.020220652 train accuracy:1.0       valid_loss:0.14081255 valid accuracy:0.95849544
+Epoch: 156
+Steps:3420
+train_loss:0.028147321 train accuracy:1.0       valid_loss:0.14518206 valid accuracy:0.9546044
+Epoch: 157
+Steps:3440
+train_loss:0.028676677 train accuracy:1.0       valid_loss:0.16204652 valid accuracy:0.94033724
+Epoch: 158
+Steps:3460
+train_loss:0.023523543 train accuracy:1.0       valid_loss:0.14699484 valid accuracy:0.9546044
+Epoch: 159
+Steps:3480
+train_loss:0.017806357 train accuracy:1.0       valid_loss:0.1423385 valid accuracy:0.9597925
+Epoch: 160
+Steps:3500
+train_loss:0.018899165 train accuracy:1.0       valid_loss:0.15626968 valid accuracy:0.9468223
+Steps:3520
+train_loss:0.011097022 train accuracy:1.0       valid_loss:0.14590926 valid accuracy:0.94811934
+Epoch: 161
+Steps:3540
+train_loss:0.018526636 train accuracy:1.0       valid_loss:0.14378513 valid accuracy:0.9520104
+Epoch: 162
+Steps:3560
+train_loss:0.026382571 train accuracy:1.0       valid_loss:0.14225379 valid accuracy:0.94941634
+Epoch: 163
+Steps:3580
+train_loss:0.023904731 train accuracy:1.0       valid_loss:0.13854414 valid accuracy:0.94941634
+Epoch: 164
+Steps:3600
+train_loss:0.02081247 train accuracy:1.0        valid_loss:0.14120376 valid accuracy:0.95849544
+Epoch: 165
+Steps:3620
+train_loss:0.014192126 train accuracy:1.0       valid_loss:0.14316243 valid accuracy:0.95719844
+Epoch: 166
+Steps:3640
+train_loss:0.030257571 train accuracy:1.0       valid_loss:0.13913183 valid accuracy:0.95719844
+Epoch: 167
+Steps:3660
+train_loss:0.017389014 train accuracy:1.0       valid_loss:0.14934675 valid accuracy:0.9455253
+Epoch: 168
+Steps:3680
+train_loss:0.027790094 train accuracy:1.0       valid_loss:0.13941681 valid accuracy:0.95590144
+Epoch: 169
+Steps:3700
+train_loss:0.015831077 train accuracy:1.0       valid_loss:0.13620247 valid accuracy:0.9597925
+Epoch: 170
+Steps:3720
+train_loss:0.018208312 train accuracy:1.0       valid_loss:0.14013137 valid accuracy:0.95719844
+Steps:3740
+train_loss:0.009493319 train accuracy:1.0       valid_loss:0.14067657 valid accuracy:0.9533074
+Epoch: 171
+Steps:3760
+train_loss:0.013222196 train accuracy:1.0       valid_loss:0.1354668 valid accuracy:0.9597925
+Epoch: 172
+Steps:3780
+train_loss:0.0125662135 train accuracy:1.0      valid_loss:0.13849531 valid accuracy:0.9546044
+Epoch: 173
+Steps:3800
+train_loss:0.01737978 train accuracy:1.0        valid_loss:0.13491179 valid accuracy:0.9533074
+Epoch: 174
+Steps:3820
+train_loss:0.014723978 train accuracy:1.0       valid_loss:0.13396332 valid accuracy:0.95590144
+Epoch: 175
+Steps:3840
+train_loss:0.01832847 train accuracy:1.0        valid_loss:0.13710062 valid accuracy:0.9520104
+Epoch: 176
+Steps:3860
+train_loss:0.015740957 train accuracy:1.0       valid_loss:0.14810799 valid accuracy:0.9520104
+Epoch: 177
+Steps:3880
+train_loss:0.01020842 train accuracy:1.0        valid_loss:0.13245706 valid accuracy:0.95719844
+Epoch: 178
+Steps:3900
+train_loss:0.011358762 train accuracy:1.0       valid_loss:0.14213367 valid accuracy:0.9610895
+Epoch: 179
+Steps:3920
+train_loss:0.016853327 train accuracy:1.0       valid_loss:0.1466171 valid accuracy:0.9468223
+Epoch: 180
+Steps:3940
+train_loss:0.013528193 train accuracy:1.0       valid_loss:0.13612849 valid accuracy:0.94941634
+Steps:3960
+train_loss:0.019129915 train accuracy:1.0       valid_loss:0.13821808 valid accuracy:0.94941634
+Epoch: 181
+Steps:3980
+train_loss:0.014676236 train accuracy:1.0       valid_loss:0.13062617 valid accuracy:0.95590144
+Epoch: 182
+Steps:4000
+train_loss:0.0146239 train accuracy:1.0 valid_loss:0.16106448 valid accuracy:0.9390402
+Epoch: 183
+Steps:4020
+train_loss:0.018297594 train accuracy:1.0       valid_loss:0.16061714 valid accuracy:0.94293123
+Epoch: 184
+Steps:4040
+train_loss:0.018983167 train accuracy:1.0       valid_loss:0.17787749 valid accuracy:0.9442283
+Epoch: 185
+Steps:4060
+train_loss:0.018678598 train accuracy:1.0       valid_loss:0.13945368 valid accuracy:0.95071334
+Epoch: 186
+Steps:4080
+train_loss:0.014620047 train accuracy:1.0       valid_loss:0.14111339 valid accuracy:0.9546044
+Epoch: 187
+Steps:4100
+train_loss:0.011983914 train accuracy:1.0       valid_loss:0.1385734 valid accuracy:0.95590144
+Epoch: 188
+Steps:4120
+train_loss:0.010995796 train accuracy:1.0       valid_loss:0.13284175 valid accuracy:0.9546044
+Epoch: 189
+Steps:4140
+train_loss:0.006899238 train accuracy:1.0       valid_loss:0.12821619 valid accuracy:0.9610895
+Epoch: 190
+Steps:4160
+train_loss:0.010926267 train accuracy:1.0       valid_loss:0.12705976 valid accuracy:0.9597925
+Steps:4180
+train_loss:0.015509956 train accuracy:1.0       valid_loss:0.12465928 valid accuracy:0.9597925
+Epoch: 191
+Steps:4200
+train_loss:0.013753645 train accuracy:1.0       valid_loss:0.12988642 valid accuracy:0.95719844
+Epoch: 192
+Steps:4220
+train_loss:0.008545834 train accuracy:1.0       valid_loss:0.1335262 valid accuracy:0.9610895
+Epoch: 193
+Steps:4240
+train_loss:0.011205984 train accuracy:1.0       valid_loss:0.12462381 valid accuracy:0.9597925
+Epoch: 194
+Steps:4260
+train_loss:0.007441315 train accuracy:1.0       valid_loss:0.13101733 valid accuracy:0.9597925
+Epoch: 195
+Steps:4280
+train_loss:0.0119228065 train accuracy:1.0      valid_loss:0.13130412 valid accuracy:0.9520104
+Epoch: 196
+Steps:4300
+train_loss:0.009354504 train accuracy:1.0       valid_loss:0.12671834 valid accuracy:0.95719844
+Epoch: 197
+Steps:4320
+train_loss:0.010369891 train accuracy:1.0       valid_loss:0.12826313 valid accuracy:0.95719844
+Epoch: 198
+Steps:4340
+train_loss:0.00881399 train accuracy:1.0        valid_loss:0.12691623 valid accuracy:0.9597925
+Epoch: 199
+Steps:4360
+train_loss:0.0119290175 train accuracy:1.0      valid_loss:0.13836385 valid accuracy:0.9455253
+Epoch: 200
+Steps:4380
+train_loss:0.011048512 train accuracy:1.0       valid_loss:0.1290791 valid accuracy:0.95719844
+Steps:4400
+train_loss:0.008302172 train accuracy:1.0       valid_loss:0.1367055 valid accuracy:0.9546044
+Epoch: 201
+Steps:4420
+train_loss:0.008451209 train accuracy:1.0       valid_loss:0.1293572 valid accuracy:0.9597925
+Epoch: 202
+Steps:4440
+train_loss:0.010981325 train accuracy:1.0       valid_loss:0.1257518 valid accuracy:0.9610895
+Epoch: 203
+Steps:4460
+train_loss:0.010874178 train accuracy:1.0       valid_loss:0.1246328 valid accuracy:0.9597925
+Epoch: 204
+Steps:4480
+train_loss:0.01063923 train accuracy:1.0        valid_loss:0.12595747 valid accuracy:0.9610895
+Epoch: 205
+Steps:4500
+train_loss:0.010983291 train accuracy:1.0       valid_loss:0.12442596 valid accuracy:0.9610895
+Epoch: 206
+Steps:4520
+train_loss:0.007234423 train accuracy:1.0       valid_loss:0.1211299 valid accuracy:0.96627754
+Epoch: 207
+Steps:4540
+train_loss:0.008081005 train accuracy:1.0       valid_loss:0.12737608 valid accuracy:0.95849544
+Epoch: 208
+Steps:4560
+train_loss:0.0057326844 train accuracy:1.0      valid_loss:0.12883663 valid accuracy:0.9623865
+Epoch: 209
+Steps:4580
+train_loss:0.0074516307 train accuracy:1.0      valid_loss:0.12202986 valid accuracy:0.9597925
+Epoch: 210
+Steps:4600
+train_loss:0.010347302 train accuracy:1.0       valid_loss:0.12728556 valid accuracy:0.9597925
+Steps:4620
+train_loss:0.0039883745 train accuracy:1.0      valid_loss:0.11928794 valid accuracy:0.96368355
+Epoch: 211
+Steps:4640
+train_loss:0.008890404 train accuracy:1.0       valid_loss:0.12376684 valid accuracy:0.9623865
+Epoch: 212
+Steps:4660
+train_loss:0.006564594 train accuracy:1.0       valid_loss:0.12316104 valid accuracy:0.9623865
+Epoch: 213
+Steps:4680
+train_loss:0.008343689 train accuracy:1.0       valid_loss:0.11981981 valid accuracy:0.9675746
+Epoch: 214
+Steps:4700
+train_loss:0.00602312 train accuracy:1.0        valid_loss:0.124318 valid accuracy:0.9623865
+Epoch: 215
+Steps:4720
+train_loss:0.0050682803 train accuracy:1.0      valid_loss:0.120389365 valid accuracy:0.96368355
+Epoch: 216
+Steps:4740
+train_loss:0.0064100996 train accuracy:1.0      valid_loss:0.12732904 valid accuracy:0.95719844
+Epoch: 217
+Steps:4760
+train_loss:0.00892938 train accuracy:1.0        valid_loss:0.123420864 valid accuracy:0.96498054
+Epoch: 218
+Steps:4780
+train_loss:0.006631143 train accuracy:1.0       valid_loss:0.12507872 valid accuracy:0.9597925
+Epoch: 219
+Steps:4800
+train_loss:0.0060257306 train accuracy:1.0      valid_loss:0.13233055 valid accuracy:0.9597925
+Epoch: 220
+Steps:4820
+train_loss:0.005508574 train accuracy:1.0       valid_loss:0.12797703 valid accuracy:0.9546044
+Steps:4840
+train_loss:0.008113462 train accuracy:1.0       valid_loss:0.12451886 valid accuracy:0.9546044
+Epoch: 221
+Steps:4860
+train_loss:0.0066427896 train accuracy:1.0      valid_loss:0.11745339 valid accuracy:0.96498054
+Epoch: 222
+Steps:4880
+train_loss:0.006325529 train accuracy:1.0       valid_loss:0.11804076 valid accuracy:0.96627754
+Epoch: 223
+Steps:4900
+train_loss:0.005169614 train accuracy:1.0       valid_loss:0.12139325 valid accuracy:0.96498054
+Epoch: 224
+Steps:4920
+train_loss:0.0040343506 train accuracy:1.0      valid_loss:0.12385324 valid accuracy:0.9675746
+Epoch: 225
+Steps:4940
+train_loss:0.0050073527 train accuracy:1.0      valid_loss:0.11844538 valid accuracy:0.96498054
+Epoch: 226
+Steps:4960
+train_loss:0.006665948 train accuracy:1.0       valid_loss:0.11480143 valid accuracy:0.96627754
+Epoch: 227
+Steps:4980
+train_loss:0.0062197302 train accuracy:1.0      valid_loss:0.124167584 valid accuracy:0.96498054
+Epoch: 228
+Steps:5000
+train_loss:0.0051920996 train accuracy:1.0      valid_loss:0.11966887 valid accuracy:0.9610895
+Epoch: 229
+Steps:5020
+train_loss:0.0058987113 train accuracy:1.0      valid_loss:0.12470652 valid accuracy:0.95849544
+Epoch: 230
+Steps:5040
+train_loss:0.0063059297 train accuracy:1.0      valid_loss:0.12012686 valid accuracy:0.95849544
+Steps:5060
+train_loss:0.0036353834 train accuracy:1.0      valid_loss:0.12698841 valid accuracy:0.95849544
+Epoch: 231
+Steps:5080
+train_loss:0.005865219 train accuracy:1.0       valid_loss:0.117059305 valid accuracy:0.9675746
+Epoch: 232
+Steps:5100
+train_loss:0.0063967016 train accuracy:1.0      valid_loss:0.112955935 valid accuracy:0.96368355
+Epoch: 233
+Steps:5120
+train_loss:0.0045166444 train accuracy:1.0      valid_loss:0.11874772 valid accuracy:0.9597925
+Epoch: 234
+Steps:5140
+train_loss:0.005034467 train accuracy:1.0       valid_loss:0.11882565 valid accuracy:0.96498054
+Epoch: 235
+Steps:5160
+train_loss:0.004060873 train accuracy:1.0       valid_loss:0.11889233 valid accuracy:0.96368355
+Epoch: 236
+Steps:5180
+train_loss:0.0054730233 train accuracy:1.0      valid_loss:0.12521794 valid accuracy:0.9623865
+Epoch: 237
+Steps:5200
+train_loss:0.00497341 train accuracy:1.0        valid_loss:0.12198916 valid accuracy:0.95849544
+Epoch: 238
+Steps:5220
+train_loss:0.0050924066 train accuracy:1.0      valid_loss:0.11988722 valid accuracy:0.96368355
+Epoch: 239
+Steps:5240
+train_loss:0.0052814186 train accuracy:1.0      valid_loss:0.11490393 valid accuracy:0.9610895
+Epoch: 240
+Steps:5260
+train_loss:0.0047832597 train accuracy:1.0      valid_loss:0.12847503 valid accuracy:0.9597925
+Steps:5280
+train_loss:0.0031197143 train accuracy:1.0      valid_loss:0.118282564 valid accuracy:0.9675746
+Epoch: 241
+Steps:5300
+train_loss:0.006871064 train accuracy:1.0       valid_loss:0.121540055 valid accuracy:0.9597925
+Epoch: 242
+Steps:5320
+train_loss:0.0061200573 train accuracy:1.0      valid_loss:0.11472162 valid accuracy:0.96627754
+Epoch: 243
+Steps:5340
+train_loss:0.0051642004 train accuracy:1.0      valid_loss:0.1206533 valid accuracy:0.9597925
+Epoch: 244
+Steps:5360
+train_loss:0.0038901407 train accuracy:1.0      valid_loss:0.11964022 valid accuracy:0.9623865
+Epoch: 245
+Steps:5380
+train_loss:0.004556847 train accuracy:1.0       valid_loss:0.11665637 valid accuracy:0.96368355
+Epoch: 246
+Steps:5400
+train_loss:0.0037086774 train accuracy:1.0      valid_loss:0.11719057 valid accuracy:0.9623865
+Epoch: 247
+Steps:5420
+train_loss:0.003159339 train accuracy:1.0       valid_loss:0.115845025 valid accuracy:0.9623865
+Epoch: 248
+Steps:5440
+train_loss:0.004657263 train accuracy:1.0       valid_loss:0.119611986 valid accuracy:0.9623865
+Epoch: 249
+Steps:5460
+train_loss:0.003208116 train accuracy:1.0       valid_loss:0.112986095 valid accuracy:0.96368355
+Epoch: 250
+Steps:5480
+train_loss:0.0031151308 train accuracy:1.0      valid_loss:0.12606233 valid accuracy:0.9610895
+Steps:5500
+train_loss:0.0054835808 train accuracy:1.0      valid_loss:0.11563805 valid accuracy:0.96498054
+Epoch: 251
+Steps:5520
+train_loss:0.004141989 train accuracy:1.0       valid_loss:0.12258471 valid accuracy:0.96368355
+Epoch: 252
+Steps:5540
+train_loss:0.003923942 train accuracy:1.0       valid_loss:0.1141684 valid accuracy:0.96368355
+Epoch: 253
+Steps:5560
+train_loss:0.003121952 train accuracy:1.0       valid_loss:0.11804634 valid accuracy:0.9675746
+Epoch: 254
+Steps:5580
+train_loss:0.0032691434 train accuracy:1.0      valid_loss:0.12755203 valid accuracy:0.9623865
+Epoch: 255
+Steps:5600
+train_loss:0.0026660901 train accuracy:1.0      valid_loss:0.111704916 valid accuracy:0.9675746
+Epoch: 256
+Steps:5620
+train_loss:0.0040132185 train accuracy:1.0      valid_loss:0.110026814 valid accuracy:0.9701686
+Epoch: 257
+Steps:5640
+train_loss:0.0026916335 train accuracy:1.0      valid_loss:0.124661595 valid accuracy:0.9623865
+Epoch: 258
+Steps:5660
+train_loss:0.004434059 train accuracy:1.0       valid_loss:0.11754176 valid accuracy:0.96498054
+Epoch: 259
+Steps:5680
+train_loss:0.0028356826 train accuracy:1.0      valid_loss:0.120785065 valid accuracy:0.9623865
+Epoch: 260
+Steps:5700
+train_loss:0.00266354 train accuracy:1.0        valid_loss:0.1196163 valid accuracy:0.9623865
+Steps:5720
+train_loss:0.003662195 train accuracy:1.0       valid_loss:0.113069646 valid accuracy:0.9675746
+Epoch: 261
+Steps:5740
+train_loss:0.0032098212 train accuracy:1.0      valid_loss:0.11357185 valid accuracy:0.96627754
+Epoch: 262
+Steps:5760
+train_loss:0.0035494652 train accuracy:1.0      valid_loss:0.10923766 valid accuracy:0.96627754
+Epoch: 263
+Steps:5780
+train_loss:0.003111185 train accuracy:1.0       valid_loss:0.12110647 valid accuracy:0.96368355
+Epoch: 264
+Steps:5800
+train_loss:0.0035935992 train accuracy:1.0      valid_loss:0.10813573 valid accuracy:0.9675746
+Epoch: 265
+Steps:5820
+train_loss:0.0027760519 train accuracy:1.0      valid_loss:0.115685046 valid accuracy:0.96627754
+Epoch: 266
+Steps:5840
+train_loss:0.0040888656 train accuracy:1.0      valid_loss:0.10923215 valid accuracy:0.9675746
+Epoch: 267
+Steps:5860
+train_loss:0.0032970996 train accuracy:1.0      valid_loss:0.11766599 valid accuracy:0.96368355
+Epoch: 268
+Steps:5880
+train_loss:0.0026094676 train accuracy:1.0      valid_loss:0.1108002 valid accuracy:0.9701686
+Epoch: 269
+Steps:5900
+train_loss:0.0026427824 train accuracy:1.0      valid_loss:0.113232195 valid accuracy:0.9701686
+Epoch: 270
+Steps:5920
+train_loss:0.0030008354 train accuracy:1.0      valid_loss:0.116396785 valid accuracy:0.96627754
+Steps:5940
+train_loss:0.0029534553 train accuracy:1.0      valid_loss:0.11652866 valid accuracy:0.9597925
+Epoch: 271
+Steps:5960
+train_loss:0.003384859 train accuracy:1.0       valid_loss:0.1197868 valid accuracy:0.96498054
+Epoch: 272
+Steps:5980
+train_loss:0.0026268344 train accuracy:1.0      valid_loss:0.1149443 valid accuracy:0.9675746
+Epoch: 273
+Steps:6000
+train_loss:0.0038712216 train accuracy:1.0      valid_loss:0.1167387 valid accuracy:0.96368355
+Epoch: 274
+Steps:6020
+train_loss:0.0027349093 train accuracy:1.0      valid_loss:0.11460325 valid accuracy:0.9675746
+Epoch: 275
+Steps:6040
+train_loss:0.001739918 train accuracy:1.0       valid_loss:0.1147159 valid accuracy:0.96498054
+Epoch: 276
+Steps:6060
+train_loss:0.0024948874 train accuracy:1.0      valid_loss:0.11116176 valid accuracy:0.9675746
+Epoch: 277
+Steps:6080
+train_loss:0.0020348625 train accuracy:1.0      valid_loss:0.11637167 valid accuracy:0.9675746
+Epoch: 278
+Steps:6100
+train_loss:0.0022896673 train accuracy:1.0      valid_loss:0.11111118 valid accuracy:0.9675746
+Epoch: 279
+Steps:6120
+train_loss:0.002399863 train accuracy:1.0       valid_loss:0.10852427 valid accuracy:0.96498054
+Epoch: 280
+Steps:6140
+train_loss:0.0019441387 train accuracy:1.0      valid_loss:0.11226262 valid accuracy:0.9675746
+Steps:6160
+train_loss:0.0034814987 train accuracy:1.0      valid_loss:0.11873327 valid accuracy:0.9675746
+Epoch: 281
+Steps:6180
+train_loss:0.0020804899 train accuracy:1.0      valid_loss:0.109972715 valid accuracy:0.9675746
+Epoch: 282
+Steps:6200
+train_loss:0.0022207948 train accuracy:1.0      valid_loss:0.117362835 valid accuracy:0.96368355
+Epoch: 283
+Steps:6220
+train_loss:0.0021428817 train accuracy:1.0      valid_loss:0.11293159 valid accuracy:0.96627754
+Epoch: 284
+Steps:6240
+train_loss:0.0024298052 train accuracy:1.0      valid_loss:0.11991782 valid accuracy:0.9610895
+Epoch: 285
+Steps:6260
+train_loss:0.0025691388 train accuracy:1.0      valid_loss:0.119709365 valid accuracy:0.9597925
+Epoch: 286
+Steps:6280
+train_loss:0.0023961663 train accuracy:1.0      valid_loss:0.118851975 valid accuracy:0.96368355
+Epoch: 287
+Steps:6300
+train_loss:0.0019207785 train accuracy:1.0      valid_loss:0.10870963 valid accuracy:0.9688716
+Epoch: 288
+Steps:6320
+train_loss:0.0019845262 train accuracy:1.0      valid_loss:0.11576038 valid accuracy:0.96368355
+Epoch: 289
+Steps:6340
+train_loss:0.0028738985 train accuracy:1.0      valid_loss:0.11267925 valid accuracy:0.96498054
+Epoch: 290
+Steps:6360
+train_loss:0.001583799 train accuracy:1.0       valid_loss:0.121725336 valid accuracy:0.96368355
+Steps:6380
+train_loss:0.0014327705 train accuracy:1.0      valid_loss:0.12011517 valid accuracy:0.96498054
+Epoch: 291
+Steps:6400
+train_loss:0.0024279892 train accuracy:1.0      valid_loss:0.11131442 valid accuracy:0.9701686
+Epoch: 292
+Steps:6420
+train_loss:0.0013251561 train accuracy:1.0      valid_loss:0.11217153 valid accuracy:0.9688716
+Epoch: 293
+Steps:6440
+train_loss:0.0018021521 train accuracy:1.0      valid_loss:0.11349707 valid accuracy:0.96627754
+Epoch: 294
+Steps:6460
+train_loss:0.0016533873 train accuracy:1.0      valid_loss:0.11289213 valid accuracy:0.96627754
+Epoch: 295
+Steps:6480
+train_loss:0.0020545453 train accuracy:1.0      valid_loss:0.11334119 valid accuracy:0.9701686
+Epoch: 296
+Steps:6500
+train_loss:0.0014346333 train accuracy:1.0      valid_loss:0.11058157 valid accuracy:0.9701686
+Epoch: 297
+Steps:6520
+train_loss:0.001363336 train accuracy:1.0       valid_loss:0.10919578 valid accuracy:0.9675746
+Epoch: 298
+Steps:6540
+train_loss:0.0015805864 train accuracy:1.0      valid_loss:0.10819085 valid accuracy:0.97276264
+Epoch: 299
+Steps:6560
+train_loss:0.0021778508 train accuracy:1.0      valid_loss:0.10558207 valid accuracy:0.9688716
+Epoch: 300
+Steps:6580
+train_loss:0.0014107688 train accuracy:1.0      valid_loss:0.11416454 valid accuracy:0.9675746
+Steps:6600
+train_loss:0.0018448443 train accuracy:1.0      valid_loss:0.108049236 valid accuracy:0.97146565
+Epoch: 301
+Steps:6620
+train_loss:0.0017390028 train accuracy:1.0      valid_loss:0.11259446 valid accuracy:0.9701686
+Epoch: 302
+Steps:6640
+train_loss:0.000993426 train accuracy:1.0       valid_loss:0.11135987 valid accuracy:0.9701686
+Epoch: 303
+Steps:6660
+train_loss:0.0023680176 train accuracy:1.0      valid_loss:0.11076084 valid accuracy:0.96627754
+Epoch: 304
+Steps:6680
+train_loss:0.002066004 train accuracy:1.0       valid_loss:0.11334989 valid accuracy:0.97146565
+Epoch: 305
+Steps:6700
+train_loss:0.0013984218 train accuracy:1.0      valid_loss:0.10783033 valid accuracy:0.97146565
+Epoch: 306
+Steps:6720
+train_loss:0.0014582409 train accuracy:1.0      valid_loss:0.11100449 valid accuracy:0.96627754
+Epoch: 307
+Steps:6740
+train_loss:0.0014149232 train accuracy:1.0      valid_loss:0.10784872 valid accuracy:0.96627754
+Epoch: 308
+Steps:6760
+train_loss:0.0013242605 train accuracy:1.0      valid_loss:0.108946666 valid accuracy:0.9675746
+Epoch: 309
+Steps:6780
+train_loss:0.002173887 train accuracy:1.0       valid_loss:0.11866871 valid accuracy:0.9675746
+Epoch: 310
+Steps:6800
+train_loss:0.0014414974 train accuracy:1.0      valid_loss:0.11676783 valid accuracy:0.9675746
+Steps:6820
+train_loss:0.0024328018 train accuracy:1.0      valid_loss:0.112335935 valid accuracy:0.96498054
+Epoch: 311
+Steps:6840
+train_loss:0.0021342486 train accuracy:1.0      valid_loss:0.107531995 valid accuracy:0.9701686
+Epoch: 312
+Steps:6860
+train_loss:0.0014777223 train accuracy:1.0      valid_loss:0.1090403 valid accuracy:0.97146565
+Epoch: 313
+Steps:6880
+train_loss:0.0014579707 train accuracy:1.0      valid_loss:0.108435415 valid accuracy:0.97146565
+Epoch: 314
+Steps:6900
+train_loss:0.0016328222 train accuracy:1.0      valid_loss:0.11314048 valid accuracy:0.9675746
+Epoch: 315
+Steps:6920
+train_loss:0.001258182 train accuracy:1.0       valid_loss:0.11300541 valid accuracy:0.9675746
+Epoch: 316
+Steps:6940
+train_loss:0.0013702711 train accuracy:1.0      valid_loss:0.10747766 valid accuracy:0.97146565
+Epoch: 317
+Steps:6960
+train_loss:0.0017350315 train accuracy:1.0      valid_loss:0.108540356 valid accuracy:0.9701686
+Epoch: 318
+Steps:6980
+train_loss:0.0011944114 train accuracy:1.0      valid_loss:0.10912806 valid accuracy:0.9688716
+Epoch: 319
+Steps:7000
+train_loss:0.0015848683 train accuracy:1.0      valid_loss:0.11170767 valid accuracy:0.9701686
+Epoch: 320
+Steps:7020
+train_loss:0.0016482132 train accuracy:1.0      valid_loss:0.104954265 valid accuracy:0.96627754
+Steps:7040
+train_loss:0.0008718954 train accuracy:1.0      valid_loss:0.10645592 valid accuracy:0.96627754
+Epoch: 321
+Steps:7060
+train_loss:0.00090162427 train accuracy:1.0     valid_loss:0.10647288 valid accuracy:0.97405964
+Epoch: 322
+Steps:7080
+train_loss:0.0012073173 train accuracy:1.0      valid_loss:0.10834944 valid accuracy:0.9701686
+Epoch: 323
+Steps:7100
+train_loss:0.001276124 train accuracy:1.0       valid_loss:0.11343261 valid accuracy:0.9701686
+Epoch: 324
+Steps:7120
+train_loss:0.0012470045 train accuracy:1.0      valid_loss:0.11194697 valid accuracy:0.9688716
+Epoch: 325
+Steps:7140
+train_loss:0.0009844094 train accuracy:1.0      valid_loss:0.1099002 valid accuracy:0.9701686
+Epoch: 326
+Steps:7160
+train_loss:0.0011503767 train accuracy:1.0      valid_loss:0.11008275 valid accuracy:0.9688716
+Epoch: 327
+Steps:7180
+train_loss:0.0012909035 train accuracy:1.0      valid_loss:0.10980976 valid accuracy:0.96627754
+Epoch: 328
+Steps:7200
+train_loss:0.0012728093 train accuracy:1.0      valid_loss:0.10714508 valid accuracy:0.97276264
+Epoch: 329
+Steps:7220
+train_loss:0.0011098847 train accuracy:1.0      valid_loss:0.10467337 valid accuracy:0.97146565
+Epoch: 330
+Steps:7240
+train_loss:0.0013843875 train accuracy:1.0      valid_loss:0.10707666 valid accuracy:0.96368355
+Steps:7260
+train_loss:0.0010582745 train accuracy:1.0      valid_loss:0.11414904 valid accuracy:0.9701686
+Epoch: 331
+Steps:7280
+train_loss:0.0013222924 train accuracy:1.0      valid_loss:0.10715072 valid accuracy:0.9688716
+Epoch: 332
+Steps:7300
+train_loss:0.0010375626 train accuracy:1.0      valid_loss:0.10702995 valid accuracy:0.97146565
+Epoch: 333
+Steps:7320
+train_loss:0.0013662562 train accuracy:1.0      valid_loss:0.110880226 valid accuracy:0.9675746
+Epoch: 334
+Steps:7340
+train_loss:0.00084034726 train accuracy:1.0     valid_loss:0.110873446 valid accuracy:0.9675746
+Epoch: 335
+Steps:7360
+train_loss:0.0013344728 train accuracy:1.0      valid_loss:0.11190003 valid accuracy:0.9701686
+Epoch: 336
+Steps:7380
+train_loss:0.0011265724 train accuracy:1.0      valid_loss:0.11054292 valid accuracy:0.9675746
+Epoch: 337
+Steps:7400
+train_loss:0.0009787757 train accuracy:1.0      valid_loss:0.10619943 valid accuracy:0.97146565
+Epoch: 338
+Steps:7420
+train_loss:0.00088424876 train accuracy:1.0     valid_loss:0.11039447 valid accuracy:0.97146565
+Epoch: 339
+Steps:7440
+train_loss:0.0010548006 train accuracy:1.0      valid_loss:0.10922055 valid accuracy:0.97276264
+Epoch: 340
+Steps:7460
+train_loss:0.000959664 train accuracy:1.0       valid_loss:0.11451013 valid accuracy:0.96627754
+Steps:7480
+train_loss:0.000524978 train accuracy:1.0       valid_loss:0.105641626 valid accuracy:0.97276264
+Epoch: 341
+Steps:7500
+train_loss:0.0009158901 train accuracy:1.0      valid_loss:0.10354201 valid accuracy:0.97146565
+Epoch: 342
+Steps:7520
+train_loss:0.0008981261 train accuracy:1.0      valid_loss:0.10903211 valid accuracy:0.97146565
+Epoch: 343
+Steps:7540
+train_loss:0.0007681057 train accuracy:1.0      valid_loss:0.10631097 valid accuracy:0.9701686
+Epoch: 344
+Steps:7560
+train_loss:0.0009362387 train accuracy:1.0      valid_loss:0.10781967 valid accuracy:0.97276264
+Epoch: 345
+Steps:7580
+train_loss:0.0009060042 train accuracy:1.0      valid_loss:0.10975548 valid accuracy:0.97405964
+Epoch: 346
+Steps:7600
+train_loss:0.0006479877 train accuracy:1.0      valid_loss:0.102579296 valid accuracy:0.97276264
+Epoch: 347
+Steps:7620
+train_loss:0.0008016894 train accuracy:1.0      valid_loss:0.10988037 valid accuracy:0.96627754
+Epoch: 348
+Steps:7640
+train_loss:0.00083808566 train accuracy:1.0     valid_loss:0.107203126 valid accuracy:0.97146565
+Epoch: 349
+Steps:7660
+train_loss:0.0009908712 train accuracy:1.0      valid_loss:0.106137834 valid accuracy:0.97146565
+Epoch: 350
+Steps:7680
+train_loss:0.0012134528 train accuracy:1.0      valid_loss:0.104338475 valid accuracy:0.97146565
+Steps:7700
+train_loss:0.0006206244 train accuracy:1.0      valid_loss:0.10617608 valid accuracy:0.97146565
+Epoch: 351
+Steps:7720
+train_loss:0.0008375869 train accuracy:1.0      valid_loss:0.10521068 valid accuracy:0.9701686
+Epoch: 352
+Steps:7740
+train_loss:0.0008080541 train accuracy:1.0      valid_loss:0.108415626 valid accuracy:0.96627754
+Epoch: 353
+Steps:7760
+train_loss:0.0005414577 train accuracy:1.0      valid_loss:0.10400143 valid accuracy:0.97405964
+Epoch: 354
+Steps:7780
+train_loss:0.0007568327 train accuracy:1.0      valid_loss:0.10448716 valid accuracy:0.97276264
+Epoch: 355
+Steps:7800
+train_loss:0.0011719122 train accuracy:1.0      valid_loss:0.10376528 valid accuracy:0.97146565
+Epoch: 356
+Steps:7820
+train_loss:0.00075524056 train accuracy:1.0     valid_loss:0.11301245 valid accuracy:0.97276264
+Epoch: 357
+Steps:7840
+train_loss:0.0008231563 train accuracy:1.0      valid_loss:0.10221151 valid accuracy:0.97405964
+Epoch: 358
+Steps:7860
+train_loss:0.00087028136 train accuracy:1.0     valid_loss:0.10565161 valid accuracy:0.97276264
+Epoch: 359
+Steps:7880
+train_loss:0.0007457407 train accuracy:1.0      valid_loss:0.105197296 valid accuracy:0.9701686
+Epoch: 360
+Steps:7900
+train_loss:0.00065039156 train accuracy:1.0     valid_loss:0.1056287 valid accuracy:0.97276264
+Steps:7920
+train_loss:0.0006176339 train accuracy:1.0      valid_loss:0.10241245 valid accuracy:0.9766537
+Epoch: 361
+Steps:7940
+train_loss:0.0009108989 train accuracy:1.0      valid_loss:0.10559604 valid accuracy:0.97146565
+Epoch: 362
+Steps:7960
+train_loss:0.000776444 train accuracy:1.0       valid_loss:0.103603795 valid accuracy:0.97146565
+Epoch: 363
+Steps:7980
+train_loss:0.0006769208 train accuracy:1.0      valid_loss:0.10592416 valid accuracy:0.9675746
+Epoch: 364
+Steps:8000
+train_loss:0.0007719293 train accuracy:1.0      valid_loss:0.11347231 valid accuracy:0.9675746
+Epoch: 365
+Steps:8020
+train_loss:0.0006290128 train accuracy:1.0      valid_loss:0.103703365 valid accuracy:0.9688716
+Epoch: 366
+Steps:8040
+train_loss:0.00086850114 train accuracy:1.0     valid_loss:0.10267051 valid accuracy:0.9688716
+Epoch: 367
+Steps:8060
+train_loss:0.0008966251 train accuracy:1.0      valid_loss:0.10624252 valid accuracy:0.9701686
+Epoch: 368
+Steps:8080
+train_loss:0.0006296736 train accuracy:1.0      valid_loss:0.10340428 valid accuracy:0.9753567
+Epoch: 369
+Steps:8100
+train_loss:0.00058991346 train accuracy:1.0     valid_loss:0.1051119 valid accuracy:0.97276264
+Epoch: 370
+Steps:8120
+train_loss:0.0005979415 train accuracy:1.0      valid_loss:0.10680523 valid accuracy:0.97405964
+Steps:8140
+train_loss:0.00057502906 train accuracy:1.0     valid_loss:0.1032672 valid accuracy:0.9753567
+Epoch: 371
+Steps:8160
+train_loss:0.0004887694 train accuracy:1.0      valid_loss:0.10588952 valid accuracy:0.9701686
+Epoch: 372
+Steps:8180
+train_loss:0.0007229187 train accuracy:1.0      valid_loss:0.10640741 valid accuracy:0.97146565
+Epoch: 373
+Steps:8200
+train_loss:0.0006895738 train accuracy:1.0      valid_loss:0.1096723 valid accuracy:0.97276264
+Epoch: 374
+Steps:8220
+train_loss:0.0004476412 train accuracy:1.0      valid_loss:0.10507133 valid accuracy:0.97146565
+Epoch: 375
+Steps:8240
+train_loss:0.00055946584 train accuracy:1.0     valid_loss:0.10577214 valid accuracy:0.97276264
+Epoch: 376
+Steps:8260
+train_loss:0.00057984906 train accuracy:1.0     valid_loss:0.103023976 valid accuracy:0.97405964
+Epoch: 377
+Steps:8280
+train_loss:0.0005531114 train accuracy:1.0      valid_loss:0.10608345 valid accuracy:0.97276264
+Epoch: 378
+Steps:8300
+train_loss:0.00037267228 train accuracy:1.0     valid_loss:0.104524724 valid accuracy:0.97405964
+Epoch: 379
+Steps:8320
+train_loss:0.00066632335 train accuracy:1.0     valid_loss:0.106488034 valid accuracy:0.9753567
+Epoch: 380
+Steps:8340
+train_loss:0.00074218726 train accuracy:1.0     valid_loss:0.107064925 valid accuracy:0.97276264
+Steps:8360
+train_loss:0.0007042222 train accuracy:1.0      valid_loss:0.10619575 valid accuracy:0.97276264
+Epoch: 381
+Steps:8380
+train_loss:0.00053490454 train accuracy:1.0     valid_loss:0.102237545 valid accuracy:0.9753567
+Epoch: 382
+Steps:8400
+train_loss:0.0003459925 train accuracy:1.0      valid_loss:0.10687132 valid accuracy:0.97405964
+Epoch: 383
+Steps:8420
+train_loss:0.0006395883 train accuracy:1.0      valid_loss:0.10250704 valid accuracy:0.97146565
+Epoch: 384
+Steps:8440
+train_loss:0.00049020106 train accuracy:1.0     valid_loss:0.10534698 valid accuracy:0.9688716
+Epoch: 385
+Steps:8460
+train_loss:0.0005490512 train accuracy:1.0      valid_loss:0.10439839 valid accuracy:0.97276264
+Epoch: 386
+Steps:8480
+train_loss:0.00035110483 train accuracy:1.0     valid_loss:0.10559249 valid accuracy:0.97405964
+Epoch: 387
+Steps:8500
+train_loss:0.00040468434 train accuracy:1.0     valid_loss:0.10069558 valid accuracy:0.97146565
+Epoch: 388
+Steps:8520
+train_loss:0.0004981097 train accuracy:1.0      valid_loss:0.10534504 valid accuracy:0.97146565
+Epoch: 389
+Steps:8540
+train_loss:0.00040733386 train accuracy:1.0     valid_loss:0.107932046 valid accuracy:0.97276264
+Epoch: 390
+Steps:8560
+train_loss:0.00044990357 train accuracy:1.0     valid_loss:0.10756746 valid accuracy:0.97146565
+Steps:8580
+train_loss:0.0003046033 train accuracy:1.0      valid_loss:0.10135915 valid accuracy:0.9753567
+Epoch: 391
+Steps:8600
+train_loss:0.00045715697 train accuracy:1.0     valid_loss:0.10734027 valid accuracy:0.97276264
+Epoch: 392
+Steps:8620
+train_loss:0.00040631465 train accuracy:1.0     valid_loss:0.106323786 valid accuracy:0.9753567
+Epoch: 393
+Steps:8640
+train_loss:0.0005212155 train accuracy:1.0      valid_loss:0.1021648 valid accuracy:0.9766537
+Epoch: 394
+Steps:8660
+train_loss:0.0003914807 train accuracy:1.0      valid_loss:0.10023495 valid accuracy:0.9766537
+Epoch: 395
+Steps:8680
+train_loss:0.00032829616 train accuracy:1.0     valid_loss:0.10635419 valid accuracy:0.97146565
+Epoch: 396
+Steps:8700
+train_loss:0.00047700372 train accuracy:1.0     valid_loss:0.10238448 valid accuracy:0.9753567
+Epoch: 397
+Steps:8720
+train_loss:0.0004461203 train accuracy:1.0      valid_loss:0.1000826 valid accuracy:0.97146565
+Epoch: 398
+Steps:8740
+train_loss:0.00039612994 train accuracy:1.0     valid_loss:0.101248085 valid accuracy:0.97405964
+Epoch: 399
+Steps:8760
+train_loss:0.00035882057 train accuracy:1.0     valid_loss:0.10146798 valid accuracy:0.97405964
+Epoch: 400
+Steps:8780
+train_loss:0.00038127217 train accuracy:1.0     valid_loss:0.102045044 valid accuracy:0.9701686
+Steps:8800
+train_loss:0.0003490554 train accuracy:1.0      valid_loss:0.103092395 valid accuracy:0.9753567
+Epoch: 401
+Steps:8820
+train_loss:0.00037644064 train accuracy:1.0     valid_loss:0.103194214 valid accuracy:0.97146565
+Epoch: 402
+Steps:8840
+train_loss:0.0003588402 train accuracy:1.0      valid_loss:0.10146664 valid accuracy:0.9753567
+Epoch: 403
+Steps:8860
+train_loss:0.0004467488 train accuracy:1.0      valid_loss:0.10347442 valid accuracy:0.9766537
+Epoch: 404
+Steps:8880
+train_loss:0.00040242993 train accuracy:1.0     valid_loss:0.103004165 valid accuracy:0.9753567
+Epoch: 405
+Steps:8900
+train_loss:0.00030421658 train accuracy:1.0     valid_loss:0.104590215 valid accuracy:0.97276264
+Epoch: 406
+Steps:8920
+train_loss:0.00047135094 train accuracy:1.0     valid_loss:0.09897551 valid accuracy:0.9779507
+Epoch: 407
+Steps:8940
+train_loss:0.00042769546 train accuracy:1.0     valid_loss:0.1013369 valid accuracy:0.9753567
+Epoch: 408
+Steps:8960
+train_loss:0.00036028936 train accuracy:1.0     valid_loss:0.10532768 valid accuracy:0.97146565
+Epoch: 409
+Steps:8980
+train_loss:0.00042299373 train accuracy:1.0     valid_loss:0.10331111 valid accuracy:0.97405964
+Epoch: 410
+Steps:9000
+train_loss:0.00036166317 train accuracy:1.0     valid_loss:0.1085797 valid accuracy:0.9701686
+Steps:9020
+train_loss:0.00048290132 train accuracy:1.0     valid_loss:0.103265956 valid accuracy:0.9753567
+Epoch: 411
+Steps:9040
+train_loss:0.0003842443 train accuracy:1.0      valid_loss:0.10218192 valid accuracy:0.97405964
+Epoch: 412
+Steps:9060
+train_loss:0.00024417788 train accuracy:1.0     valid_loss:0.1032131 valid accuracy:0.97405964
+Epoch: 413
+Steps:9080
+train_loss:0.00040558542 train accuracy:1.0     valid_loss:0.102001175 valid accuracy:0.9753567
+Epoch: 414
+Steps:9100
+train_loss:0.00038093823 train accuracy:1.0     valid_loss:0.10280383 valid accuracy:0.97276264
+Epoch: 415
+Steps:9120
+train_loss:0.00035885503 train accuracy:1.0     valid_loss:0.10392789 valid accuracy:0.9701686
+Epoch: 416
+Steps:9140
+train_loss:0.0004428974 train accuracy:1.0      valid_loss:0.09743487 valid accuracy:0.97405964
+Epoch: 417
+Steps:9160
+train_loss:0.00026700163 train accuracy:1.0     valid_loss:0.101725094 valid accuracy:0.9753567
+Epoch: 418
+Steps:9180
+train_loss:0.00029979544 train accuracy:1.0     valid_loss:0.10664421 valid accuracy:0.9701686
+Epoch: 419
+Steps:9200
+train_loss:0.00029767913 train accuracy:1.0     valid_loss:0.10215968 valid accuracy:0.9766537
+Epoch: 420
+Steps:9220
+train_loss:0.0003874979 train accuracy:1.0      valid_loss:0.10072879 valid accuracy:0.9779507
+Steps:9240
+train_loss:0.00020057622 train accuracy:1.0     valid_loss:0.1016111 valid accuracy:0.97276264
+Epoch: 421
+Steps:9260
+train_loss:0.00031895205 train accuracy:1.0     valid_loss:0.102891006 valid accuracy:0.9779507
+Epoch: 422
+Steps:9280
+train_loss:0.00029060477 train accuracy:1.0     valid_loss:0.09913105 valid accuracy:0.9753567
+Epoch: 423
+Steps:9300
+train_loss:0.00028919827 train accuracy:1.0     valid_loss:0.10046666 valid accuracy:0.97405964
+Epoch: 424
+Steps:9320
+train_loss:0.0002603631 train accuracy:1.0      valid_loss:0.09679769 valid accuracy:0.9779507
+Epoch: 425
+Steps:9340
+train_loss:0.0002963998 train accuracy:1.0      valid_loss:0.1016723 valid accuracy:0.97276264
+Epoch: 426
+Steps:9360
+train_loss:0.00029899587 train accuracy:1.0     valid_loss:0.09922709 valid accuracy:0.9779507
+Epoch: 427
+Steps:9380
+train_loss:0.00035191124 train accuracy:1.0     valid_loss:0.101111285 valid accuracy:0.9779507
+Epoch: 428
+Steps:9400
+train_loss:0.0003114848 train accuracy:1.0      valid_loss:0.10137671 valid accuracy:0.9766537
+Epoch: 429
+Steps:9420
+train_loss:0.00025079347 train accuracy:1.0     valid_loss:0.10282392 valid accuracy:0.9766537
+Epoch: 430
+Steps:9440
+train_loss:0.000276006 train accuracy:1.0       valid_loss:0.1080941 valid accuracy:0.97276264
+Steps:9460
+train_loss:0.00020879088 train accuracy:1.0     valid_loss:0.103214666 valid accuracy:0.9753567
+Epoch: 431
+Steps:9480
+train_loss:0.00021580842 train accuracy:1.0     valid_loss:0.10285407 valid accuracy:0.9753567
+Epoch: 432
+Steps:9500
+train_loss:0.0003435673 train accuracy:1.0      valid_loss:0.10463033 valid accuracy:0.97405964
+Epoch: 433
+Steps:9520
+train_loss:0.00031748074 train accuracy:1.0     valid_loss:0.105388515 valid accuracy:0.9753567
+Epoch: 434
+Steps:9540
+train_loss:0.00022900428 train accuracy:1.0     valid_loss:0.10321892 valid accuracy:0.9779507
+Epoch: 435
+Steps:9560
+train_loss:0.00024538653 train accuracy:1.0     valid_loss:0.09908329 valid accuracy:0.9753567
+Epoch: 436
+Steps:9580
+train_loss:0.0003027496 train accuracy:1.0      valid_loss:0.10316947 valid accuracy:0.97405964
+Epoch: 437
+Steps:9600
+train_loss:0.00020868535 train accuracy:1.0     valid_loss:0.10381306 valid accuracy:0.9766537
+Epoch: 438
+Steps:9620
+train_loss:0.00033705187 train accuracy:1.0     valid_loss:0.100267544 valid accuracy:0.9753567
+Epoch: 439
+Steps:9640
+train_loss:0.00021206812 train accuracy:1.0     valid_loss:0.103298984 valid accuracy:0.97924775
+Epoch: 440
+Steps:9660
+train_loss:0.00027810116 train accuracy:1.0     valid_loss:0.103605196 valid accuracy:0.97146565
+Steps:9680
+train_loss:0.00015869779 train accuracy:1.0     valid_loss:0.101775765 valid accuracy:0.9766537
+Epoch: 441
+Steps:9700
+train_loss:0.00028793624 train accuracy:1.0     valid_loss:0.10233642 valid accuracy:0.9753567
+Epoch: 442
+Steps:9720
+train_loss:0.00023740076 train accuracy:1.0     valid_loss:0.10541885 valid accuracy:0.9753567
+Epoch: 443
+Steps:9740
+train_loss:0.00016952935 train accuracy:1.0     valid_loss:0.10356586 valid accuracy:0.9766537
+Epoch: 444
+Steps:9760
+train_loss:0.00019433169 train accuracy:1.0     valid_loss:0.10379041 valid accuracy:0.97276264
+Epoch: 445
+Steps:9780
+train_loss:0.00020410729 train accuracy:1.0     valid_loss:0.10182383 valid accuracy:0.9766537
+Epoch: 446
+Steps:9800
+train_loss:0.00025752513 train accuracy:1.0     valid_loss:0.10242531 valid accuracy:0.9766537
+Epoch: 447
+Steps:9820
+train_loss:0.00019079758 train accuracy:1.0     valid_loss:0.099947505 valid accuracy:0.97276264
+Epoch: 448
+Steps:9840
+train_loss:0.00015278634 train accuracy:1.0     valid_loss:0.10431616 valid accuracy:0.97405964
+Epoch: 449
+Steps:9860
+train_loss:0.00020962828 train accuracy:1.0     valid_loss:0.10083921 valid accuracy:0.9753567
+Epoch: 450
+Steps:9880
+train_loss:0.00020566359 train accuracy:1.0     valid_loss:0.102727495 valid accuracy:0.9701686
+Steps:9900
+train_loss:0.00031053153 train accuracy:1.0     valid_loss:0.10052568 valid accuracy:0.97924775
+Epoch: 451
+Steps:9920
+train_loss:0.0002147526 train accuracy:1.0      valid_loss:0.09913234 valid accuracy:0.9753567
+Epoch: 452
+Steps:9940
+train_loss:0.00023402172 train accuracy:1.0     valid_loss:0.10527229 valid accuracy:0.9701686
+Epoch: 453
+Steps:9960
+train_loss:0.00020205726 train accuracy:1.0     valid_loss:0.106090344 valid accuracy:0.9766537
+Epoch: 454
+Steps:9980
+train_loss:0.00018047343 train accuracy:1.0     valid_loss:0.09994938 valid accuracy:0.9779507
+Epoch: 455
+Steps:10000
+train_loss:0.00021942929 train accuracy:1.0     valid_loss:0.10119029 valid accuracy:0.97405964
+Epoch: 456
+Steps:10020
+train_loss:0.00020705999 train accuracy:1.0     valid_loss:0.102558516 valid accuracy:0.9766537
+Epoch: 457
+Steps:10040
+train_loss:0.00025066285 train accuracy:1.0     valid_loss:0.100674994 valid accuracy:0.9753567
+Epoch: 458
+Steps:10060
+train_loss:0.00022031418 train accuracy:1.0     valid_loss:0.104379855 valid accuracy:0.97405964
+Epoch: 459
+Steps:10080
+train_loss:0.0001668318 train accuracy:1.0      valid_loss:0.1005478 valid accuracy:0.9779507
+Epoch: 460
+Steps:10100
+train_loss:0.00018706764 train accuracy:1.0     valid_loss:0.10310803 valid accuracy:0.97405964
+Steps:10120
+train_loss:0.0001578584 train accuracy:1.0      valid_loss:0.09932326 valid accuracy:0.9779507
+Epoch: 461
+Steps:10140
+train_loss:0.00014933046 train accuracy:1.0     valid_loss:0.10570988 valid accuracy:0.9753567
+Epoch: 462
+Steps:10160
+train_loss:0.00018969896 train accuracy:1.0     valid_loss:0.10851452 valid accuracy:0.97405964
+Epoch: 463
+Steps:10180
+train_loss:0.00017762773 train accuracy:1.0     valid_loss:0.102940425 valid accuracy:0.9779507
+Epoch: 464
+Steps:10200
+train_loss:0.00020519887 train accuracy:1.0     valid_loss:0.10106601 valid accuracy:0.9766537
+Epoch: 465
+Steps:10220
+train_loss:0.00012054361 train accuracy:1.0     valid_loss:0.10336304 valid accuracy:0.9766537
+Epoch: 466
+Steps:10240
+train_loss:0.00014647418 train accuracy:1.0     valid_loss:0.105010726 valid accuracy:0.9753567
+Epoch: 467
+Steps:10260
+train_loss:0.00014995219 train accuracy:1.0     valid_loss:0.10080734 valid accuracy:0.9779507
+Epoch: 468
+Steps:10280
+train_loss:0.00019522551 train accuracy:1.0     valid_loss:0.104729734 valid accuracy:0.9753567
+Epoch: 469
+Steps:10300
+train_loss:0.0001984533 train accuracy:1.0      valid_loss:0.10205397 valid accuracy:0.9753567
+Epoch: 470
+Steps:10320
+train_loss:0.00012169916 train accuracy:1.0     valid_loss:0.10581395 valid accuracy:0.97405964
+Steps:10340
+train_loss:0.00011219628 train accuracy:1.0     valid_loss:0.10519887 valid accuracy:0.97276264
+Epoch: 471
+Steps:10360
+train_loss:0.00012528068 train accuracy:1.0     valid_loss:0.10027738 valid accuracy:0.9766537
+Epoch: 472
+Steps:10380
+train_loss:0.00015228169 train accuracy:1.0     valid_loss:0.10711423 valid accuracy:0.9753567
+Epoch: 473
+Steps:10400
+train_loss:0.00017326511 train accuracy:1.0     valid_loss:0.10365507 valid accuracy:0.9766537
+Epoch: 474
+Steps:10420
+train_loss:0.00014979548 train accuracy:1.0     valid_loss:0.10460733 valid accuracy:0.97276264
+Epoch: 475
+Steps:10440
+train_loss:0.00024181933 train accuracy:1.0     valid_loss:0.10302762 valid accuracy:0.97405964
+Epoch: 476
+Steps:10460
+train_loss:0.00016313654 train accuracy:1.0     valid_loss:0.10121679 valid accuracy:0.9753567
+Epoch: 477
+Steps:10480
+train_loss:0.00011725737 train accuracy:1.0     valid_loss:0.1026517 valid accuracy:0.9753567
+Epoch: 478
+Steps:10500
+train_loss:0.000185566 train accuracy:1.0       valid_loss:0.105690844 valid accuracy:0.97146565
+Epoch: 479
+Steps:10520
+train_loss:0.00022985559 train accuracy:1.0     valid_loss:0.10108146 valid accuracy:0.9766537
+Epoch: 480
+Steps:10540
+train_loss:0.00016676466 train accuracy:1.0     valid_loss:0.10319052 valid accuracy:0.9766537
+Steps:10560
+train_loss:0.000114482915 train accuracy:1.0    valid_loss:0.10307124 valid accuracy:0.9779507
+Epoch: 481
+Steps:10580
+train_loss:0.00010918366 train accuracy:1.0     valid_loss:0.10170056 valid accuracy:0.9779507
+Epoch: 482
+Steps:10600
+train_loss:0.00014296456 train accuracy:1.0     valid_loss:0.10272041 valid accuracy:0.9766537
+Epoch: 483
+Steps:10620
+train_loss:0.00017226915 train accuracy:1.0     valid_loss:0.10319603 valid accuracy:0.97405964
+Epoch: 484
+Steps:10640
+train_loss:0.00012509816 train accuracy:1.0     valid_loss:0.10249148 valid accuracy:0.9753567
+Epoch: 485
+Steps:10660
+train_loss:0.00014715931 train accuracy:1.0     valid_loss:0.103443675 valid accuracy:0.9766537
+Epoch: 486
+Steps:10680
+train_loss:0.00015995276 train accuracy:1.0     valid_loss:0.10182054 valid accuracy:0.9766537
+Epoch: 487
+Steps:10700
+train_loss:0.00014359037 train accuracy:1.0     valid_loss:0.10373182 valid accuracy:0.9753567
+Epoch: 488
+Steps:10720
+train_loss:0.00013426144 train accuracy:1.0     valid_loss:0.09891384 valid accuracy:0.9779507
+Epoch: 489
+Steps:10740
+train_loss:0.00013556302 train accuracy:1.0     valid_loss:0.10086334 valid accuracy:0.97405964
+Epoch: 490
+Steps:10760
+train_loss:0.00012669712 train accuracy:1.0     valid_loss:0.10394827 valid accuracy:0.97146565
+Steps:10780
+train_loss:0.00012999917 train accuracy:1.0     valid_loss:0.101783864 valid accuracy:0.9766537
+Epoch: 491
+Steps:10800
+train_loss:8.9578185e-05 train accuracy:1.0     valid_loss:0.10656645 valid accuracy:0.97276264
+Epoch: 492
+Steps:10820
+train_loss:0.00012829129 train accuracy:1.0     valid_loss:0.10050045 valid accuracy:0.9779507
+Epoch: 493
+Steps:10840
+train_loss:8.7679386e-05 train accuracy:1.0     valid_loss:0.103620686 valid accuracy:0.9753567
+Epoch: 494
+Steps:10860
+train_loss:0.00012763473 train accuracy:1.0     valid_loss:0.10406247 valid accuracy:0.97146565
+Epoch: 495
+Steps:10880
+train_loss:0.00012571277 train accuracy:1.0     valid_loss:0.104279496 valid accuracy:0.97405964
+Epoch: 496
+Steps:10900
+train_loss:8.98659e-05 train accuracy:1.0       valid_loss:0.10509838 valid accuracy:0.9753567
+Epoch: 497
+Steps:10920
+train_loss:9.5234784e-05 train accuracy:1.0     valid_loss:0.099064924 valid accuracy:0.9779507
+Epoch: 498
+Steps:10940
+train_loss:0.00014903146 train accuracy:1.0     valid_loss:0.09964731 valid accuracy:0.9779507
+Epoch: 499
+Steps:10960
+train_loss:0.00011421942 train accuracy:1.0     valid_loss:0.10035591 valid accuracy:0.9753567
+Epoch: 500
+Steps:10980
+train_loss:0.00013005253 train accuracy:1.0     valid_loss:0.098963976 valid accuracy:0.9766537
+Steps:11000
+train_loss:6.3033985e-05 train accuracy:1.0     valid_loss:0.09909323 valid accuracy:0.9753567
+Epoch: 501
+Steps:11020
+train_loss:0.000118821976 train accuracy:1.0    valid_loss:0.09809835 valid accuracy:0.9779507
+Epoch: 502
+Steps:11040
+train_loss:8.05966e-05 train accuracy:1.0       valid_loss:0.103507206 valid accuracy:0.9753567
+Epoch: 503
+Steps:11060
+train_loss:8.088025e-05 train accuracy:1.0      valid_loss:0.10157341 valid accuracy:0.97276264
+Epoch: 504
+Steps:11080
+train_loss:0.0001223907 train accuracy:1.0      valid_loss:0.10160135 valid accuracy:0.97924775
+Epoch: 505
+Steps:11100
+train_loss:0.00010089578 train accuracy:1.0     valid_loss:0.106282674 valid accuracy:0.97405964
+Epoch: 506
+Steps:11120
+train_loss:8.940255e-05 train accuracy:1.0      valid_loss:0.09968178 valid accuracy:0.9766537
+Epoch: 507
+Steps:11140
+train_loss:0.0001179751 train accuracy:1.0      valid_loss:0.09892089 valid accuracy:0.9766537
+Epoch: 508
+Steps:11160
+train_loss:9.82216e-05 train accuracy:1.0       valid_loss:0.102165885 valid accuracy:0.9779507
+Epoch: 509
+Steps:11180
+train_loss:6.950467e-05 train accuracy:1.0      valid_loss:0.10441168 valid accuracy:0.97146565
+Epoch: 510
+Steps:11200
+train_loss:8.9838264e-05 train accuracy:1.0     valid_loss:0.100002676 valid accuracy:0.97405964
+Steps:11220
+train_loss:7.4081516e-05 train accuracy:1.0     valid_loss:0.09801399 valid accuracy:0.97924775
+Epoch: 511
+Steps:11240
+train_loss:0.00010074831 train accuracy:1.0     valid_loss:0.10144235 valid accuracy:0.97924775
+Epoch: 512
+Steps:11260
+train_loss:8.601365e-05 train accuracy:1.0      valid_loss:0.105580986 valid accuracy:0.97276264
+Epoch: 513
+Steps:11280
+train_loss:9.165106e-05 train accuracy:1.0      valid_loss:0.1061017 valid accuracy:0.97276264
+Epoch: 514
+Steps:11300
+train_loss:0.00012698717 train accuracy:1.0     valid_loss:0.1018787 valid accuracy:0.9779507
+Epoch: 515
+Steps:11320
+train_loss:9.225281e-05 train accuracy:1.0      valid_loss:0.10039747 valid accuracy:0.9779507
+Epoch: 516
+Steps:11340
+train_loss:8.634816e-05 train accuracy:1.0      valid_loss:0.104275726 valid accuracy:0.9779507
+Epoch: 517
+Steps:11360
+train_loss:7.204387e-05 train accuracy:1.0      valid_loss:0.10338966 valid accuracy:0.9766537
+Epoch: 518
+Steps:11380
+train_loss:9.180464e-05 train accuracy:1.0      valid_loss:0.1052048 valid accuracy:0.9779507
+Epoch: 519
+Steps:11400
+train_loss:7.334877e-05 train accuracy:1.0      valid_loss:0.10487659 valid accuracy:0.9753567
+Epoch: 520
+Steps:11420
+train_loss:7.47804e-05 train accuracy:1.0       valid_loss:0.10637598 valid accuracy:0.9766537
+Steps:11440
+train_loss:6.2361476e-05 train accuracy:1.0     valid_loss:0.10359053 valid accuracy:0.9779507
+Epoch: 521
+Steps:11460
+train_loss:8.624e-05 train accuracy:1.0 valid_loss:0.104455695 valid accuracy:0.9766537
+Epoch: 522
+Steps:11480
+train_loss:9.0107846e-05 train accuracy:1.0     valid_loss:0.10459719 valid accuracy:0.9766537
+Epoch: 523
+Steps:11500
+train_loss:5.149609e-05 train accuracy:1.0      valid_loss:0.09883624 valid accuracy:0.9766537
+Epoch: 524
+Steps:11520
+train_loss:8.9931156e-05 train accuracy:1.0     valid_loss:0.10080451 valid accuracy:0.9779507
+Epoch: 525
+Steps:11540
+train_loss:7.793715e-05 train accuracy:1.0      valid_loss:0.10832524 valid accuracy:0.9753567
+Epoch: 526
+Steps:11560
+train_loss:4.6846788e-05 train accuracy:1.0     valid_loss:0.10111236 valid accuracy:0.9766537
+Epoch: 527
+Steps:11580
+train_loss:8.651508e-05 train accuracy:1.0      valid_loss:0.10804905 valid accuracy:0.9753567
+Epoch: 528
+Steps:11600
+train_loss:7.3596515e-05 train accuracy:1.0     valid_loss:0.10191224 valid accuracy:0.9766537
+Epoch: 529
+Steps:11620
+train_loss:7.783941e-05 train accuracy:1.0      valid_loss:0.1010194 valid accuracy:0.9766537
+Epoch: 530
+Steps:11640
+train_loss:7.669765e-05 train accuracy:1.0      valid_loss:0.10558344 valid accuracy:0.9779507
+Steps:11660
+train_loss:6.94348e-05 train accuracy:1.0       valid_loss:0.09795606 valid accuracy:0.98054475
+Epoch: 531
+Steps:11680
+train_loss:6.333172e-05 train accuracy:1.0      valid_loss:0.10313877 valid accuracy:0.97405964
+Epoch: 532
+Steps:11700
+train_loss:7.104088e-05 train accuracy:1.0      valid_loss:0.101970054 valid accuracy:0.9779507
+Epoch: 533
+Steps:11720
+train_loss:8.61186e-05 train accuracy:1.0       valid_loss:0.09822219 valid accuracy:0.9779507
+Epoch: 534
+Steps:11740
+train_loss:7.445236e-05 train accuracy:1.0      valid_loss:0.10482768 valid accuracy:0.9766537
+Epoch: 535
+Steps:11760
+train_loss:7.8683646e-05 train accuracy:1.0     valid_loss:0.10738463 valid accuracy:0.9753567
+Epoch: 536
+Steps:11780
+train_loss:7.441619e-05 train accuracy:1.0      valid_loss:0.11086502 valid accuracy:0.97146565
+Epoch: 537
+Steps:11800
+train_loss:6.9436246e-05 train accuracy:1.0     valid_loss:0.10028951 valid accuracy:0.97405964
+Epoch: 538
+Steps:11820
+train_loss:8.9290166e-05 train accuracy:1.0     valid_loss:0.10290341 valid accuracy:0.9753567
+Epoch: 539
+Steps:11840
+train_loss:6.832603e-05 train accuracy:1.0      valid_loss:0.11150559 valid accuracy:0.9779507
+Epoch: 540
+Steps:11860
+train_loss:6.6146225e-05 train accuracy:1.0     valid_loss:0.10559685 valid accuracy:0.9766537
+Steps:11880
+train_loss:8.086193e-05 train accuracy:1.0      valid_loss:0.10400259 valid accuracy:0.9766537
+Epoch: 541
+Steps:11900
+train_loss:6.7592264e-05 train accuracy:1.0     valid_loss:0.10794197 valid accuracy:0.9766537
+Epoch: 542
+Steps:11920
+train_loss:6.956652e-05 train accuracy:1.0      valid_loss:0.105812915 valid accuracy:0.9753567
+Epoch: 543
+Steps:11940
+train_loss:6.881135e-05 train accuracy:1.0      valid_loss:0.105537705 valid accuracy:0.9766537
+Epoch: 544
+Steps:11960
+train_loss:3.815814e-05 train accuracy:1.0      valid_loss:0.10129644 valid accuracy:0.98054475
+Epoch: 545
+Steps:11980
+train_loss:5.861996e-05 train accuracy:1.0      valid_loss:0.09969042 valid accuracy:0.9766537
+Epoch: 546
+Steps:12000
+train_loss:7.543236e-05 train accuracy:1.0      valid_loss:0.10284028 valid accuracy:0.97924775
+Epoch: 547
+Steps:12020
+train_loss:5.243114e-05 train accuracy:1.0      valid_loss:0.10263683 valid accuracy:0.97405964
+Epoch: 548
+Steps:12040
+train_loss:6.377135e-05 train accuracy:1.0      valid_loss:0.10568205 valid accuracy:0.9753567
+Epoch: 549
+Steps:12060
+train_loss:5.4074117e-05 train accuracy:1.0     valid_loss:0.10226983 valid accuracy:0.9766537
+Epoch: 550
+Steps:12080
+train_loss:4.8784557e-05 train accuracy:1.0     valid_loss:0.10164699 valid accuracy:0.97924775
+Steps:12100
+train_loss:4.6786226e-05 train accuracy:1.0     valid_loss:0.110945724 valid accuracy:0.97405964
+Epoch: 551
+Steps:12120
+train_loss:3.7094072e-05 train accuracy:1.0     valid_loss:0.10268091 valid accuracy:0.9753567
+Epoch: 552
+Steps:12140
+train_loss:5.687622e-05 train accuracy:1.0      valid_loss:0.10365907 valid accuracy:0.9766537
+Epoch: 553
+Steps:12160
+train_loss:4.3812255e-05 train accuracy:1.0     valid_loss:0.10737175 valid accuracy:0.9753567
+Epoch: 554
+Steps:12180
+train_loss:4.724028e-05 train accuracy:1.0      valid_loss:0.10335222 valid accuracy:0.9779507
+Epoch: 555
+Steps:12200
+train_loss:3.8144357e-05 train accuracy:1.0     valid_loss:0.10527371 valid accuracy:0.9766537
+Epoch: 556
+Steps:12220
+train_loss:5.0904884e-05 train accuracy:1.0     valid_loss:0.10310786 valid accuracy:0.9779507
+Epoch: 557
+Steps:12240
+train_loss:4.37474e-05 train accuracy:1.0       valid_loss:0.103927195 valid accuracy:0.9766537
+Epoch: 558
+Steps:12260
+train_loss:6.111504e-05 train accuracy:1.0      valid_loss:0.1019799 valid accuracy:0.9779507
+Epoch: 559
+Steps:12280
+train_loss:5.1812418e-05 train accuracy:1.0     valid_loss:0.104151905 valid accuracy:0.9766537
+Epoch: 560
+Steps:12300
+train_loss:4.756602e-05 train accuracy:1.0      valid_loss:0.10228418 valid accuracy:0.9766537
+Steps:12320
+train_loss:2.3186014e-05 train accuracy:1.0     valid_loss:0.10217503 valid accuracy:0.97924775
+Epoch: 561
+Steps:12340
+train_loss:4.7665715e-05 train accuracy:1.0     valid_loss:0.10269557 valid accuracy:0.9753567
+Epoch: 562
+Steps:12360
+train_loss:4.1704145e-05 train accuracy:1.0     valid_loss:0.10453753 valid accuracy:0.9753567
+Epoch: 563
+Steps:12380
+train_loss:4.3765573e-05 train accuracy:1.0     valid_loss:0.10218079 valid accuracy:0.97924775
+Epoch: 564
+Steps:12400
+train_loss:4.1783744e-05 train accuracy:1.0     valid_loss:0.102707244 valid accuracy:0.9766537
+Epoch: 565
+Steps:12420
+train_loss:4.7469963e-05 train accuracy:1.0     valid_loss:0.1074311 valid accuracy:0.97276264
+Epoch: 566
+Steps:12440
+train_loss:3.6329024e-05 train accuracy:1.0     valid_loss:0.104141 valid accuracy:0.9779507
+Epoch: 567
+Steps:12460
+train_loss:3.8383496e-05 train accuracy:1.0     valid_loss:0.104995795 valid accuracy:0.9779507
+Epoch: 568
+Steps:12480
+train_loss:3.409003e-05 train accuracy:1.0      valid_loss:0.10436424 valid accuracy:0.9779507
+Epoch: 569
+Steps:12500
+train_loss:3.459689e-05 train accuracy:1.0      valid_loss:0.10377063 valid accuracy:0.9779507
+Epoch: 570
+Steps:12520
+train_loss:3.6555324e-05 train accuracy:1.0     valid_loss:0.101304725 valid accuracy:0.9779507
+Steps:12540
+train_loss:5.360774e-05 train accuracy:1.0      valid_loss:0.10537193 valid accuracy:0.97405964
+Epoch: 571
+Steps:12560
+train_loss:3.865623e-05 train accuracy:1.0      valid_loss:0.1019902 valid accuracy:0.9779507
+Epoch: 572
+Steps:12580
+train_loss:5.0887164e-05 train accuracy:1.0     valid_loss:0.10490477 valid accuracy:0.97924775
+Epoch: 573
+Steps:12600
+train_loss:4.3487467e-05 train accuracy:1.0     valid_loss:0.10163942 valid accuracy:0.9766537
+Epoch: 574
+Steps:12620
+train_loss:4.7517184e-05 train accuracy:1.0     valid_loss:0.09954333 valid accuracy:0.9779507
+Epoch: 575
+Steps:12640
+train_loss:3.31604e-05 train accuracy:1.0       valid_loss:0.1047543 valid accuracy:0.97276264
+Epoch: 576
+Steps:12660
+train_loss:2.42055e-05 train accuracy:1.0       valid_loss:0.10294347 valid accuracy:0.9779507
+Epoch: 577
+Steps:12680
+train_loss:4.068173e-05 train accuracy:1.0      valid_loss:0.10551033 valid accuracy:0.9779507
+Epoch: 578
+Steps:12700
+train_loss:4.1974057e-05 train accuracy:1.0     valid_loss:0.105219446 valid accuracy:0.98054475
+Epoch: 579
+Steps:12720
+train_loss:3.588767e-05 train accuracy:1.0      valid_loss:0.10130917 valid accuracy:0.98054475
+Epoch: 580
+Steps:12740
+train_loss:2.4159792e-05 train accuracy:1.0     valid_loss:0.10262426 valid accuracy:0.97924775
+Steps:12760
+train_loss:1.8487519e-05 train accuracy:1.0     valid_loss:0.104119845 valid accuracy:0.9779507
+Epoch: 581
+Steps:12780
+train_loss:3.3947064e-05 train accuracy:1.0     valid_loss:0.106964745 valid accuracy:0.97924775
+Epoch: 582
+Steps:12800
+train_loss:4.6858353e-05 train accuracy:1.0     valid_loss:0.10318524 valid accuracy:0.9779507
+Epoch: 583
+Steps:12820
+train_loss:3.8915525e-05 train accuracy:1.0     valid_loss:0.10795888 valid accuracy:0.9766537
+Epoch: 584
+Steps:12840
+train_loss:3.5859728e-05 train accuracy:1.0     valid_loss:0.104964145 valid accuracy:0.98054475
+Epoch: 585
+Steps:12860
+train_loss:3.6554025e-05 train accuracy:1.0     valid_loss:0.10597572 valid accuracy:0.9753567
+Epoch: 586
+Steps:12880
+train_loss:3.9520022e-05 train accuracy:1.0     valid_loss:0.103923425 valid accuracy:0.9779507
+Epoch: 587
+Steps:12900
+train_loss:3.243819e-05 train accuracy:1.0      valid_loss:0.10649051 valid accuracy:0.9753567
+Epoch: 588
+Steps:12920
+train_loss:3.0312607e-05 train accuracy:1.0     valid_loss:0.10602859 valid accuracy:0.9766537
+Epoch: 589
+Steps:12940
+train_loss:3.5140616e-05 train accuracy:1.0     valid_loss:0.10557909 valid accuracy:0.9779507
+Epoch: 590
+Steps:12960
+train_loss:3.4864057e-05 train accuracy:1.0     valid_loss:0.10445923 valid accuracy:0.97146565
+Steps:12980
+train_loss:1.8039484e-05 train accuracy:1.0     valid_loss:0.108001806 valid accuracy:0.9779507
+Epoch: 591
+Steps:13000
+train_loss:4.3828255e-05 train accuracy:1.0     valid_loss:0.10214665 valid accuracy:0.97924775
+Epoch: 592
+Steps:13020
+train_loss:3.303911e-05 train accuracy:1.0      valid_loss:0.104814485 valid accuracy:0.9753567
+Epoch: 593
+Steps:13040
+train_loss:3.785079e-05 train accuracy:1.0      valid_loss:0.10587694 valid accuracy:0.98054475
+Epoch: 594
+Steps:13060
+train_loss:2.3213823e-05 train accuracy:1.0     valid_loss:0.107664905 valid accuracy:0.97924775
+Epoch: 595
+Steps:13080
+train_loss:3.4653523e-05 train accuracy:1.0     valid_loss:0.107724056 valid accuracy:0.9766537
+Epoch: 596
+Steps:13100
+train_loss:3.584911e-05 train accuracy:1.0      valid_loss:0.10578469 valid accuracy:0.9779507
+Epoch: 597
+Steps:13120
+train_loss:3.0638563e-05 train accuracy:1.0     valid_loss:0.102211274 valid accuracy:0.97924775
+Epoch: 598
+Steps:13140
+train_loss:2.5096586e-05 train accuracy:1.0     valid_loss:0.10509858 valid accuracy:0.9753567
+Epoch: 599
+Steps:13160
+train_loss:3.5690893e-05 train accuracy:1.0     valid_loss:0.10339019 valid accuracy:0.9766537
+Epoch: 600
+Steps:13180
+train_loss:1.6416134e-05 train accuracy:1.0     valid_loss:0.10728898 valid accuracy:0.97405964
+Steps:13200
+train_loss:1.3694221e-05 train accuracy:1.0     valid_loss:0.101542756 valid accuracy:0.97924775
+Epoch: 601
+Steps:13220
+train_loss:2.0303862e-05 train accuracy:1.0     valid_loss:0.105386384 valid accuracy:0.9766537
+Epoch: 602
+Steps:13240
+train_loss:2.5184952e-05 train accuracy:1.0     valid_loss:0.10472557 valid accuracy:0.9779507
+Epoch: 603
+Steps:13260
+train_loss:2.7467588e-05 train accuracy:1.0     valid_loss:0.10465858 valid accuracy:0.9766537
+Epoch: 604
+Steps:13280
+train_loss:3.1552765e-05 train accuracy:1.0     valid_loss:0.10718922 valid accuracy:0.9753567
+Epoch: 605
+Steps:13300
+train_loss:3.3929606e-05 train accuracy:1.0     valid_loss:0.10794433 valid accuracy:0.9753567
+Epoch: 606
+Steps:13320
+train_loss:2.4868306e-05 train accuracy:1.0     valid_loss:0.10532677 valid accuracy:0.9766537
+Epoch: 607
+Steps:13340
+train_loss:2.5404934e-05 train accuracy:1.0     valid_loss:0.10508526 valid accuracy:0.9766537
+Epoch: 608
+Steps:13360
+train_loss:2.4808178e-05 train accuracy:1.0     valid_loss:0.10420849 valid accuracy:0.9766537
+Epoch: 609
+Steps:13380
+train_loss:2.1943275e-05 train accuracy:1.0     valid_loss:0.101499304 valid accuracy:0.9766537
+Epoch: 610
+Steps:13400
+train_loss:2.8582244e-05 train accuracy:1.0     valid_loss:0.10569689 valid accuracy:0.9766537
+Steps:13420
+train_loss:2.1511032e-05 train accuracy:1.0     valid_loss:0.11123895 valid accuracy:0.9753567
+Epoch: 611
+Steps:13440
+train_loss:2.5043464e-05 train accuracy:1.0     valid_loss:0.111891314 valid accuracy:0.97405964
+Epoch: 612
+Steps:13460
+train_loss:2.3650624e-05 train accuracy:1.0     valid_loss:0.10380801 valid accuracy:0.97924775
+Epoch: 613
+Steps:13480
+train_loss:2.6620975e-05 train accuracy:1.0     valid_loss:0.10329049 valid accuracy:0.97924775
+Epoch: 614
+Steps:13500
+train_loss:2.0747972e-05 train accuracy:1.0     valid_loss:0.105498 valid accuracy:0.98054475
+Epoch: 615
+Steps:13520
+train_loss:2.1542259e-05 train accuracy:1.0     valid_loss:0.10127009 valid accuracy:0.9779507
+Epoch: 616
+Steps:13540
+train_loss:2.5581023e-05 train accuracy:1.0     valid_loss:0.10532102 valid accuracy:0.9753567
+Epoch: 617
+Steps:13560
+train_loss:2.146752e-05 train accuracy:1.0      valid_loss:0.10563002 valid accuracy:0.9753567
+Epoch: 618
+Steps:13580
+train_loss:3.079593e-05 train accuracy:1.0      valid_loss:0.106510155 valid accuracy:0.9779507
+Epoch: 619
+Steps:13600
+train_loss:1.9849635e-05 train accuracy:1.0     valid_loss:0.10347928 valid accuracy:0.9779507
+Epoch: 620
+Steps:13620
+train_loss:2.2734412e-05 train accuracy:1.0     valid_loss:0.110198185 valid accuracy:0.9753567
+Steps:13640
+train_loss:2.2865794e-05 train accuracy:1.0     valid_loss:0.108115494 valid accuracy:0.9779507
+Epoch: 621
+Steps:13660
+train_loss:2.1316177e-05 train accuracy:1.0     valid_loss:0.10862401 valid accuracy:0.97924775
+Epoch: 622
+Steps:13680
+train_loss:2.4202656e-05 train accuracy:1.0     valid_loss:0.11241805 valid accuracy:0.9753567
+Epoch: 623
+Steps:13700
+train_loss:2.3940422e-05 train accuracy:1.0     valid_loss:0.10610986 valid accuracy:0.97405964
+Epoch: 624
+Steps:13720
+train_loss:2.0396794e-05 train accuracy:1.0     valid_loss:0.105915114 valid accuracy:0.9779507
+Epoch: 625
+Steps:13740
+train_loss:2.4441993e-05 train accuracy:1.0     valid_loss:0.106344745 valid accuracy:0.9779507
+Epoch: 626
+Steps:13760
+train_loss:2.1017506e-05 train accuracy:1.0     valid_loss:0.107702784 valid accuracy:0.9753567
+Epoch: 627
+Steps:13780
+train_loss:1.8919105e-05 train accuracy:1.0     valid_loss:0.104159065 valid accuracy:0.9779507
+Epoch: 628
+Steps:13800
+train_loss:1.32746045e-05 train accuracy:1.0    valid_loss:0.10615331 valid accuracy:0.98054475
+Epoch: 629
+Steps:13820
+train_loss:1.829231e-05 train accuracy:1.0      valid_loss:0.1071619 valid accuracy:0.9766537
+Epoch: 630
+Steps:13840
+train_loss:2.299606e-05 train accuracy:1.0      valid_loss:0.11025631 valid accuracy:0.97276264
+Steps:13860
+train_loss:1.44598735e-05 train accuracy:1.0    valid_loss:0.10500843 valid accuracy:0.9779507
+Epoch: 631
+Steps:13880
+train_loss:2.1992852e-05 train accuracy:1.0     valid_loss:0.10347533 valid accuracy:0.9779507
+Epoch: 632
+Steps:13900
+train_loss:1.673111e-05 train accuracy:1.0      valid_loss:0.109019004 valid accuracy:0.98054475
+Epoch: 633
+Steps:13920
+train_loss:2.176781e-05 train accuracy:1.0      valid_loss:0.106392294 valid accuracy:0.97924775
+Epoch: 634
+Steps:13940
+train_loss:2.3159228e-05 train accuracy:1.0     valid_loss:0.10015489 valid accuracy:0.97924775
+Epoch: 635
+Steps:13960
+train_loss:1.39805115e-05 train accuracy:1.0    valid_loss:0.10168428 valid accuracy:0.97924775
+Epoch: 636
+Steps:13980
+train_loss:1.14791355e-05 train accuracy:1.0    valid_loss:0.103298575 valid accuracy:0.9753567
+Epoch: 637
+Steps:14000
+train_loss:1.7835782e-05 train accuracy:1.0     valid_loss:0.1080957 valid accuracy:0.9753567
+Epoch: 638
+Steps:14020
+train_loss:1.4557936e-05 train accuracy:1.0     valid_loss:0.11041921 valid accuracy:0.97924775
+Epoch: 639
+Steps:14040
+train_loss:1.7774462e-05 train accuracy:1.0     valid_loss:0.10935911 valid accuracy:0.9779507
+Epoch: 640
+Steps:14060
+train_loss:1.5266549e-05 train accuracy:1.0     valid_loss:0.10927343 valid accuracy:0.9753567
+Steps:14080
+train_loss:1.9459294e-05 train accuracy:1.0     valid_loss:0.1066485 valid accuracy:0.9753567
+Epoch: 641
+Steps:14100
+train_loss:1.9811032e-05 train accuracy:1.0     valid_loss:0.10532491 valid accuracy:0.97924775
+Epoch: 642
+Steps:14120
+train_loss:1.638979e-05 train accuracy:1.0      valid_loss:0.10759683 valid accuracy:0.9779507
+Epoch: 643
+Steps:14140
+train_loss:1.9325129e-05 train accuracy:1.0     valid_loss:0.10805843 valid accuracy:0.9766537
+Epoch: 644
+Steps:14160
+train_loss:1.2094655e-05 train accuracy:1.0     valid_loss:0.10244483 valid accuracy:0.97924775
+Epoch: 645
+Steps:14180
+train_loss:1.8576215e-05 train accuracy:1.0     valid_loss:0.107417844 valid accuracy:0.9766537
+Epoch: 646
+Steps:14200
+train_loss:1.4451797e-05 train accuracy:1.0     valid_loss:0.10300783 valid accuracy:0.9779507
+Epoch: 647
+Steps:14220
+train_loss:1.1852517e-05 train accuracy:1.0     valid_loss:0.10439628 valid accuracy:0.97924775
+Epoch: 648
+Steps:14240
+train_loss:1.634322e-05 train accuracy:1.0      valid_loss:0.10375929 valid accuracy:0.9779507
+Epoch: 649
+Steps:14260
+train_loss:1.8451528e-05 train accuracy:1.0     valid_loss:0.10497055 valid accuracy:0.9779507
+Epoch: 650
+Steps:14280
+train_loss:1.4197552e-05 train accuracy:1.0     valid_loss:0.10342807 valid accuracy:0.98054475
+Steps:14300
+train_loss:1.4886223e-05 train accuracy:1.0     valid_loss:0.10772992 valid accuracy:0.97924775
+Epoch: 651
+Steps:14320
+train_loss:1.5398875e-05 train accuracy:1.0     valid_loss:0.10605785 valid accuracy:0.97276264
+Epoch: 652
+Steps:14340
+train_loss:1.7563169e-05 train accuracy:1.0     valid_loss:0.10380279 valid accuracy:0.9779507
+Epoch: 653
+Steps:14360
+train_loss:1.3850156e-05 train accuracy:1.0     valid_loss:0.10569795 valid accuracy:0.9766537
+Epoch: 654
+Steps:14380
+train_loss:1.4543021e-05 train accuracy:1.0     valid_loss:0.106674485 valid accuracy:0.97276264
+Epoch: 655
+Steps:14400
+train_loss:1.3382655e-05 train accuracy:1.0     valid_loss:0.10631881 valid accuracy:0.97924775
+Epoch: 656
+Steps:14420
+train_loss:1.6888996e-05 train accuracy:1.0     valid_loss:0.10359595 valid accuracy:0.98054475
+Epoch: 657
+Steps:14440
+train_loss:1.5326304e-05 train accuracy:1.0     valid_loss:0.102945134 valid accuracy:0.98054475
+Epoch: 658
+Steps:14460
+train_loss:1.0632667e-05 train accuracy:1.0     valid_loss:0.10417266 valid accuracy:0.97924775
+Epoch: 659
+Steps:14480
+train_loss:1.3221519e-05 train accuracy:1.0     valid_loss:0.1023498 valid accuracy:0.97924775
+Epoch: 660
+Steps:14500
+train_loss:1.3107991e-05 train accuracy:1.0     valid_loss:0.10962288 valid accuracy:0.9766537
+Steps:14520
+train_loss:1.6623548e-05 train accuracy:1.0     valid_loss:0.10398123 valid accuracy:0.98054475
+Epoch: 661
+Steps:14540
+train_loss:1.5819705e-05 train accuracy:1.0     valid_loss:0.109217614 valid accuracy:0.9753567
+Epoch: 662
+Steps:14560
+train_loss:1.248952e-05 train accuracy:1.0      valid_loss:0.10568524 valid accuracy:0.9779507
+Epoch: 663
+Steps:14580
+train_loss:1.4176221e-05 train accuracy:1.0     valid_loss:0.10925271 valid accuracy:0.9766537
+Epoch: 664
+Steps:14600
+train_loss:1.3941495e-05 train accuracy:1.0     valid_loss:0.10864629 valid accuracy:0.9766537
+Epoch: 665
+Steps:14620
+train_loss:1.333061e-05 train accuracy:1.0      valid_loss:0.106356435 valid accuracy:0.9753567
+Epoch: 666
+Steps:14640
+train_loss:1.1192251e-05 train accuracy:1.0     valid_loss:0.1015069 valid accuracy:0.9766537
+Epoch: 667
+Steps:14660
+train_loss:1.036258e-05 train accuracy:1.0      valid_loss:0.10729252 valid accuracy:0.97924775
+Epoch: 668
+Steps:14680
+train_loss:1.1401739e-05 train accuracy:1.0     valid_loss:0.10370748 valid accuracy:0.98054475
+Epoch: 669
+Steps:14700
+train_loss:1.0906384e-05 train accuracy:1.0     valid_loss:0.1071432 valid accuracy:0.9766537
+Epoch: 670
+Steps:14720
+train_loss:1.3597844e-05 train accuracy:1.0     valid_loss:0.10488019 valid accuracy:0.98054475
+Steps:14740
+train_loss:1.4799615e-05 train accuracy:1.0     valid_loss:0.10648131 valid accuracy:0.9766537
+Epoch: 671
+Steps:14760
+train_loss:1.099959e-05 train accuracy:1.0      valid_loss:0.109598 valid accuracy:0.9753567
+Epoch: 672
+Steps:14780
+train_loss:9.505691e-06 train accuracy:1.0      valid_loss:0.10908236 valid accuracy:0.9753567
+Epoch: 673
+Steps:14800
+train_loss:1.6166254e-05 train accuracy:1.0     valid_loss:0.10826129 valid accuracy:0.9766537
+Epoch: 674
+Steps:14820
+train_loss:9.953721e-06 train accuracy:1.0      valid_loss:0.109817766 valid accuracy:0.9779507
+Epoch: 675
+Steps:14840
+train_loss:1.14335535e-05 train accuracy:1.0    valid_loss:0.10790117 valid accuracy:0.9766537
+Epoch: 676
+Steps:14860
+train_loss:9.785117e-06 train accuracy:1.0      valid_loss:0.10656505 valid accuracy:0.9766537
+Epoch: 677
+Steps:14880
+train_loss:1.0688509e-05 train accuracy:1.0     valid_loss:0.10659913 valid accuracy:0.9766537
+Epoch: 678
+Steps:14900
+train_loss:8.851022e-06 train accuracy:1.0      valid_loss:0.105310045 valid accuracy:0.97924775
+Epoch: 679
+Steps:14920
+train_loss:1.15024395e-05 train accuracy:1.0    valid_loss:0.108518526 valid accuracy:0.9766537
+Epoch: 680
+Steps:14940
+train_loss:1.0202348e-05 train accuracy:1.0     valid_loss:0.106287085 valid accuracy:0.97924775
+Steps:14960
+train_loss:6.6539587e-06 train accuracy:1.0     valid_loss:0.105580665 valid accuracy:0.97924775
+Epoch: 681
+Steps:14980
+train_loss:1.2357343e-05 train accuracy:1.0     valid_loss:0.10645127 valid accuracy:0.9753567
+Epoch: 682
+Steps:15000
+train_loss:7.413183e-06 train accuracy:1.0      valid_loss:0.10759647 valid accuracy:0.97924775
+Epoch: 683
+Steps:15020
+train_loss:1.1338578e-05 train accuracy:1.0     valid_loss:0.10752257 valid accuracy:0.97405964
+Epoch: 684
+Steps:15040
+train_loss:7.93752e-06 train accuracy:1.0       valid_loss:0.1050757 valid accuracy:0.98054475
+Epoch: 685
+Steps:15060
+train_loss:9.024256e-06 train accuracy:1.0      valid_loss:0.105474114 valid accuracy:0.9766537
+Epoch: 686
+Steps:15080
+train_loss:9.357728e-06 train accuracy:1.0      valid_loss:0.10489477 valid accuracy:0.9766537
+Epoch: 687
+Steps:15100
+train_loss:1.1119685e-05 train accuracy:1.0     valid_loss:0.10683492 valid accuracy:0.9766537
+Epoch: 688
+Steps:15120
+train_loss:1.000586e-05 train accuracy:1.0      valid_loss:0.10515257 valid accuracy:0.9779507
+Epoch: 689
+Steps:15140
+train_loss:1.0290908e-05 train accuracy:1.0     valid_loss:0.100913465 valid accuracy:0.97924775
+Epoch: 690
+Steps:15160
+train_loss:8.228026e-06 train accuracy:1.0      valid_loss:0.1027187 valid accuracy:0.9766537
+Steps:15180
+train_loss:8.976578e-06 train accuracy:1.0      valid_loss:0.10877023 valid accuracy:0.9753567
+Epoch: 691
+Steps:15200
+train_loss:7.704697e-06 train accuracy:1.0      valid_loss:0.10447873 valid accuracy:0.97924775
+Epoch: 692
+Steps:15220
+train_loss:7.237183e-06 train accuracy:1.0      valid_loss:0.10538501 valid accuracy:0.9779507
+Epoch: 693
+Steps:15240
+train_loss:8.4730345e-06 train accuracy:1.0     valid_loss:0.10667463 valid accuracy:0.97924775
+Epoch: 694
+Steps:15260
+train_loss:8.778492e-06 train accuracy:1.0      valid_loss:0.10683264 valid accuracy:0.9779507
+Epoch: 695
+Steps:15280
+train_loss:6.1596375e-06 train accuracy:1.0     valid_loss:0.10593132 valid accuracy:0.97924775
+Epoch: 696
+Steps:15300
+train_loss:1.1819959e-05 train accuracy:1.0     valid_loss:0.10678617 valid accuracy:0.9779507
+Epoch: 697
+Steps:15320
+train_loss:7.64135e-06 train accuracy:1.0       valid_loss:0.11251265 valid accuracy:0.9779507
+Epoch: 698
+Steps:15340
+train_loss:1.1504302e-05 train accuracy:1.0     valid_loss:0.10978701 valid accuracy:0.9766537
+Epoch: 699
+Steps:15360
+train_loss:6.8954178e-06 train accuracy:1.0     valid_loss:0.10843249 valid accuracy:0.9753567
+Epoch: 700
+Steps:15380
+train_loss:6.334756e-06 train accuracy:1.0      valid_loss:0.10594306 valid accuracy:0.9779507
+Steps:15400
+train_loss:8.062743e-06 train accuracy:1.0      valid_loss:0.1066764 valid accuracy:0.9766537
+Epoch: 701
+Steps:15420
+train_loss:7.3722213e-06 train accuracy:1.0     valid_loss:0.11022569 valid accuracy:0.9766537
+Epoch: 702
+Steps:15440
+train_loss:8.3594e-06 train accuracy:1.0        valid_loss:0.10883479 valid accuracy:0.9753567
+Epoch: 703
+Steps:15460
+train_loss:7.5249695e-06 train accuracy:1.0     valid_loss:0.107638836 valid accuracy:0.9766537
+Epoch: 704
+Steps:15480
+train_loss:7.4457776e-06 train accuracy:1.0     valid_loss:0.107075624 valid accuracy:0.9766537
+Epoch: 705
+Steps:15500
+train_loss:5.8271935e-06 train accuracy:1.0     valid_loss:0.10560219 valid accuracy:0.9779507
+Epoch: 706
+Steps:15520
+train_loss:8.718879e-06 train accuracy:1.0      valid_loss:0.104038045 valid accuracy:0.9766537
+Epoch: 707
+Steps:15540
+train_loss:6.381334e-06 train accuracy:1.0      valid_loss:0.10369784 valid accuracy:0.9779507
+Epoch: 708
+Steps:15560
+train_loss:1.023314e-05 train accuracy:1.0      valid_loss:0.10700505 valid accuracy:0.9779507
+Epoch: 709
+Steps:15580
+train_loss:4.8930965e-06 train accuracy:1.0     valid_loss:0.103917 valid accuracy:0.9779507
+Epoch: 710
+Steps:15600
+train_loss:8.283022e-06 train accuracy:1.0      valid_loss:0.11132678 valid accuracy:0.9753567
+Steps:15620
+train_loss:9.666531e-06 train accuracy:1.0      valid_loss:0.10625934 valid accuracy:0.97405964
+Epoch: 711
+Steps:15640
+train_loss:5.9463987e-06 train accuracy:1.0     valid_loss:0.10693577 valid accuracy:0.9779507
+Epoch: 712
+Steps:15660
+train_loss:7.949641e-06 train accuracy:1.0      valid_loss:0.10392909 valid accuracy:0.98054475
+Epoch: 713
+Steps:15680
+train_loss:8.224339e-06 train accuracy:1.0      valid_loss:0.110500686 valid accuracy:0.9766537
+Epoch: 714
+Steps:15700
+train_loss:8.888383e-06 train accuracy:1.0      valid_loss:0.10674669 valid accuracy:0.9766537
+Epoch: 715
+Steps:15720
+train_loss:5.2246223e-06 train accuracy:1.0     valid_loss:0.108294375 valid accuracy:0.9766537
+Epoch: 716
+Steps:15740
+train_loss:6.141051e-06 train accuracy:1.0      valid_loss:0.10772368 valid accuracy:0.9753567
+Epoch: 717
+Steps:15760
+train_loss:6.504253e-06 train accuracy:1.0      valid_loss:0.1067177 valid accuracy:0.9753567
+Epoch: 718
+Steps:15780
+train_loss:7.5398857e-06 train accuracy:1.0     valid_loss:0.107631356 valid accuracy:0.97924775
+Epoch: 719
+Steps:15800
+train_loss:5.8616633e-06 train accuracy:1.0     valid_loss:0.10712242 valid accuracy:0.9766537
+Epoch: 720
+Steps:15820
+train_loss:6.9932175e-06 train accuracy:1.0     valid_loss:0.106424615 valid accuracy:0.9779507
+Steps:15840
+train_loss:5.075376e-06 train accuracy:1.0      valid_loss:0.104675375 valid accuracy:0.9779507
+Epoch: 721
+Steps:15860
+train_loss:5.186479e-06 train accuracy:1.0      valid_loss:0.10272929 valid accuracy:0.97924775
+Epoch: 722
+Steps:15880
+train_loss:5.289844e-06 train accuracy:1.0      valid_loss:0.10683926 valid accuracy:0.9779507
+Epoch: 723
+Steps:15900
+train_loss:6.170847e-06 train accuracy:1.0      valid_loss:0.10433655 valid accuracy:0.97924775
+Epoch: 724
+Steps:15920
+train_loss:6.0441957e-06 train accuracy:1.0     valid_loss:0.10748348 valid accuracy:0.97924775
+Epoch: 725
+Steps:15940
+train_loss:5.558066e-06 train accuracy:1.0      valid_loss:0.112646885 valid accuracy:0.9753567
+Epoch: 726
+Steps:15960
+train_loss:4.63421e-06 train accuracy:1.0       valid_loss:0.109463066 valid accuracy:0.9779507
+Epoch: 727
+Steps:15980
+train_loss:6.430686e-06 train accuracy:1.0      valid_loss:0.10517834 valid accuracy:0.97924775
+Epoch: 728
+Steps:16000
+train_loss:5.9892627e-06 train accuracy:1.0     valid_loss:0.10819737 valid accuracy:0.9779507
+Epoch: 729
+Steps:16020
+train_loss:6.9652333e-06 train accuracy:1.0     valid_loss:0.10742136 valid accuracy:0.97924775
+Epoch: 730
+Steps:16040
+train_loss:5.3727426e-06 train accuracy:1.0     valid_loss:0.106001124 valid accuracy:0.97924775
+Steps:16060
+train_loss:6.4986357e-06 train accuracy:1.0     valid_loss:0.10782731 valid accuracy:0.97924775
+Epoch: 731
+Steps:16080
+train_loss:5.0942676e-06 train accuracy:1.0     valid_loss:0.10760983 valid accuracy:0.9766537
+Epoch: 732
+Steps:16100
+train_loss:5.6502686e-06 train accuracy:1.0     valid_loss:0.109148316 valid accuracy:0.9779507
+Epoch: 733
+Steps:16120
+train_loss:4.8241754e-06 train accuracy:1.0     valid_loss:0.10699898 valid accuracy:0.97924775
+Epoch: 734
+Steps:16140
+train_loss:7.038834e-06 train accuracy:1.0      valid_loss:0.110512406 valid accuracy:0.9753567
+Epoch: 735
+Steps:16160
+train_loss:5.39508e-06 train accuracy:1.0       valid_loss:0.10562967 valid accuracy:0.9779507
+Epoch: 736
+Steps:16180
+train_loss:4.591374e-06 train accuracy:1.0      valid_loss:0.106201634 valid accuracy:0.9753567
+Epoch: 737
+Steps:16200
+train_loss:5.9017093e-06 train accuracy:1.0     valid_loss:0.10377261 valid accuracy:0.97924775
+Epoch: 738
+Steps:16220
+train_loss:4.729189e-06 train accuracy:1.0      valid_loss:0.110550106 valid accuracy:0.9766537
+Epoch: 739
+Steps:16240
+train_loss:4.357619e-06 train accuracy:1.0      valid_loss:0.10912791 valid accuracy:0.9779507
+Epoch: 740
+Steps:16260
+train_loss:5.177176e-06 train accuracy:1.0      valid_loss:0.10542046 valid accuracy:0.9766537
+Steps:16280
+train_loss:4.6418854e-06 train accuracy:1.0     valid_loss:0.1041197 valid accuracy:0.97924775
+Epoch: 741
+Steps:16300
+train_loss:3.96461e-06 train accuracy:1.0       valid_loss:0.10552876 valid accuracy:0.97924775
+Epoch: 742
+Steps:16320
+train_loss:4.788805e-06 train accuracy:1.0      valid_loss:0.10832842 valid accuracy:0.97924775
+Epoch: 743
+Steps:16340
+train_loss:4.2188362e-06 train accuracy:1.0     valid_loss:0.107661664 valid accuracy:0.9753567
+Epoch: 744
+Steps:16360
+train_loss:5.0663357e-06 train accuracy:1.0     valid_loss:0.10601761 valid accuracy:0.97924775
+Epoch: 745
+Steps:16380
+train_loss:5.0002045e-06 train accuracy:1.0     valid_loss:0.107970946 valid accuracy:0.97924775
+Epoch: 746
+Steps:16400
+train_loss:4.6761106e-06 train accuracy:1.0     valid_loss:0.107168846 valid accuracy:0.9779507
+Epoch: 747
+Steps:16420
+train_loss:3.978574e-06 train accuracy:1.0      valid_loss:0.11172796 valid accuracy:0.9766537
+Epoch: 748
+Steps:16440
+train_loss:3.3154715e-06 train accuracy:1.0     valid_loss:0.106602386 valid accuracy:0.9779507
+Epoch: 749
+Steps:16460
+train_loss:4.4628323e-06 train accuracy:1.0     valid_loss:0.10997947 valid accuracy:0.9753567
+Epoch: 750
+Steps:16480
+train_loss:3.7392265e-06 train accuracy:1.0     valid_loss:0.10813234 valid accuracy:0.9779507
+Steps:16500
+train_loss:1.8784384e-06 train accuracy:1.0     valid_loss:0.106649324 valid accuracy:0.9766537
+Epoch: 751
+Steps:16520
+train_loss:5.675404e-06 train accuracy:1.0      valid_loss:0.10146479 valid accuracy:0.9779507
+Epoch: 752
+Steps:16540
+train_loss:4.4768194e-06 train accuracy:1.0     valid_loss:0.10594396 valid accuracy:0.97924775
+Epoch: 753
+Steps:16560
+train_loss:4.2272245e-06 train accuracy:1.0     valid_loss:0.10612508 valid accuracy:0.9779507
+Epoch: 754
+Steps:16580
+train_loss:2.9569233e-06 train accuracy:1.0     valid_loss:0.10900911 valid accuracy:0.9766537
+Epoch: 755
+Steps:16600
+train_loss:2.6561092e-06 train accuracy:1.0     valid_loss:0.108346246 valid accuracy:0.9779507
+Epoch: 756
+Steps:16620
+train_loss:4.2318798e-06 train accuracy:1.0     valid_loss:0.10446674 valid accuracy:0.9779507
+Epoch: 757
+Steps:16640
+train_loss:3.4011607e-06 train accuracy:1.0     valid_loss:0.107036464 valid accuracy:0.9766537
+Epoch: 758
+Steps:16660
+train_loss:3.4672885e-06 train accuracy:1.0     valid_loss:0.10781483 valid accuracy:0.9753567
+Epoch: 759
+Steps:16680
+train_loss:3.0556491e-06 train accuracy:1.0     valid_loss:0.106968485 valid accuracy:0.9779507
+Epoch: 760
+Steps:16700
+train_loss:4.4544754e-06 train accuracy:1.0     valid_loss:0.10826216 valid accuracy:0.97924775
+Steps:16720
+train_loss:1.7556165e-06 train accuracy:1.0     valid_loss:0.109043375 valid accuracy:0.9766537
+Epoch: 761
+Steps:16740
+train_loss:3.8016256e-06 train accuracy:1.0     valid_loss:0.109008074 valid accuracy:0.9766537
+Epoch: 762
+Steps:16760
+train_loss:3.5641417e-06 train accuracy:1.0     valid_loss:0.11462596 valid accuracy:0.9753567
+Epoch: 763
+Steps:16780
+train_loss:4.0828663e-06 train accuracy:1.0     valid_loss:0.10643027 valid accuracy:0.97924775
+Epoch: 764
+Steps:16800
+train_loss:3.874272e-06 train accuracy:1.0      valid_loss:0.10715931 valid accuracy:0.9779507
+Epoch: 765
+Steps:16820
+train_loss:3.7326895e-06 train accuracy:1.0     valid_loss:0.107714124 valid accuracy:0.9779507
+Epoch: 766
+Steps:16840
+train_loss:3.8062822e-06 train accuracy:1.0     valid_loss:0.10879198 valid accuracy:0.9779507
+Epoch: 767
+Steps:16860
+train_loss:3.785797e-06 train accuracy:1.0      valid_loss:0.106897004 valid accuracy:0.9779507
+Epoch: 768
+Steps:16880
+train_loss:2.632832e-06 train accuracy:1.0      valid_loss:0.10627717 valid accuracy:0.9766537
+Epoch: 769
+Steps:16900
+train_loss:3.65914e-06 train accuracy:1.0       valid_loss:0.10451173 valid accuracy:0.97924775
+Epoch: 770
+Steps:16920
+train_loss:2.855418e-06 train accuracy:1.0      valid_loss:0.10617312 valid accuracy:0.9766537
+Steps:16940
+train_loss:4.2445477e-06 train accuracy:1.0     valid_loss:0.10722985 valid accuracy:0.98054475
+Epoch: 771
+Steps:16960
+train_loss:3.0649571e-06 train accuracy:1.0     valid_loss:0.10799945 valid accuracy:0.98184174
+Epoch: 772
+Steps:16980
+train_loss:3.4123327e-06 train accuracy:1.0     valid_loss:0.112236604 valid accuracy:0.97405964
+Epoch: 773
+Steps:17000
+train_loss:2.9802086e-06 train accuracy:1.0     valid_loss:0.10897821 valid accuracy:0.9779507
+Epoch: 774
+Steps:17020
+train_loss:4.447934e-06 train accuracy:1.0      valid_loss:0.10609798 valid accuracy:0.9779507
+Epoch: 775
+Steps:17040
+train_loss:3.3983656e-06 train accuracy:1.0     valid_loss:0.10525381 valid accuracy:0.9766537
+Epoch: 776
+Steps:17060
+train_loss:2.871248e-06 train accuracy:1.0      valid_loss:0.105303474 valid accuracy:0.97924775
+Epoch: 777
+Steps:17080
+train_loss:3.1646105e-06 train accuracy:1.0     valid_loss:0.11199209 valid accuracy:0.9779507
+Epoch: 778
+Steps:17100
+train_loss:2.638416e-06 train accuracy:1.0      valid_loss:0.10752559 valid accuracy:0.9779507
+Epoch: 779
+Steps:17120
+train_loss:3.1841687e-06 train accuracy:1.0     valid_loss:0.10353324 valid accuracy:0.9779507
+Epoch: 780
+Steps:17140
+train_loss:4.3743835e-06 train accuracy:1.0     valid_loss:0.10917149 valid accuracy:0.9766537
+Steps:17160
+train_loss:2.5250479e-06 train accuracy:1.0     valid_loss:0.106587246 valid accuracy:0.97924775
+Epoch: 781
+Steps:17180
+train_loss:3.3136089e-06 train accuracy:1.0     valid_loss:0.10875259 valid accuracy:0.97924775
+Epoch: 782
+Steps:17200
+train_loss:3.2055896e-06 train accuracy:1.0     valid_loss:0.106999636 valid accuracy:0.97924775
+Epoch: 783
+Steps:17220
+train_loss:2.6468028e-06 train accuracy:1.0     valid_loss:0.10867084 valid accuracy:0.9779507
+Epoch: 784
+Steps:17240
+train_loss:3.4793943e-06 train accuracy:1.0     valid_loss:0.10772535 valid accuracy:0.9779507
+Epoch: 785
+Steps:17260
+train_loss:2.4987244e-06 train accuracy:1.0     valid_loss:0.1086825 valid accuracy:0.97924775
+Epoch: 786
+Steps:17280
+train_loss:2.538771e-06 train accuracy:1.0      valid_loss:0.10928917 valid accuracy:0.97924775
+Epoch: 787
+Steps:17300
+train_loss:3.9497017e-06 train accuracy:1.0     valid_loss:0.10811664 valid accuracy:0.9779507
+Epoch: 788
+Steps:17320
+train_loss:2.3776536e-06 train accuracy:1.0     valid_loss:0.10861182 valid accuracy:0.9766537
+Epoch: 789
+Steps:17340
+train_loss:2.7268961e-06 train accuracy:1.0     valid_loss:0.10852385 valid accuracy:0.9766537
+Epoch: 790
+Steps:17360
+train_loss:2.2565796e-06 train accuracy:1.0     valid_loss:0.10475364 valid accuracy:0.9766537
+Steps:17380
+train_loss:2.5395018e-06 train accuracy:1.0     valid_loss:0.107489266 valid accuracy:0.9779507
+Epoch: 791
+Steps:17400
+train_loss:2.3851053e-06 train accuracy:1.0     valid_loss:0.10905674 valid accuracy:0.9766537
+Epoch: 792
+Steps:17420
+train_loss:2.6635653e-06 train accuracy:1.0     valid_loss:0.1073958 valid accuracy:0.97924775
+Epoch: 793
+Steps:17440
+train_loss:2.2183995e-06 train accuracy:1.0     valid_loss:0.10765856 valid accuracy:0.9766537
+Epoch: 794
+Steps:17460
+train_loss:2.37393e-06 train accuracy:1.0       valid_loss:0.10923272 valid accuracy:0.9779507
+Epoch: 795
+Steps:17480
+train_loss:2.1774197e-06 train accuracy:1.0     valid_loss:0.10793655 valid accuracy:0.9753567
+Epoch: 796
+Steps:17500
+train_loss:1.9278268e-06 train accuracy:1.0     valid_loss:0.11106635 valid accuracy:0.9779507
+Epoch: 797
+Steps:17520
+train_loss:2.4940691e-06 train accuracy:1.0     valid_loss:0.10778095 valid accuracy:0.9766537
+Epoch: 798
+Steps:17540
+train_loss:1.4956983e-06 train accuracy:1.0     valid_loss:0.11069539 valid accuracy:0.9779507
+Epoch: 799
+Steps:17560
+train_loss:1.9222407e-06 train accuracy:1.0     valid_loss:0.1097486 valid accuracy:0.9779507
+Epoch: 800
+Steps:17580
+train_loss:2.5713666e-06 train accuracy:1.0     valid_loss:0.108148664 valid accuracy:0.9766537
+Steps:17600
+train_loss:2.2035592e-06 train accuracy:1.0     valid_loss:0.10833269 valid accuracy:0.9753567
+Epoch: 801
+Steps:17620
+train_loss:2.1932517e-06 train accuracy:1.0     valid_loss:0.111056 valid accuracy:0.9753567
+Epoch: 802
+Steps:17640
+train_loss:2.552743e-06 train accuracy:1.0      valid_loss:0.10772247 valid accuracy:0.97924775
+Epoch: 803
+Steps:17660
+train_loss:2.1504065e-06 train accuracy:1.0     valid_loss:0.107143044 valid accuracy:0.97924775
+Epoch: 804
+Steps:17680
+train_loss:2.6328319e-06 train accuracy:1.0     valid_loss:0.104188696 valid accuracy:0.9766537
+Epoch: 805
+Steps:17700
+train_loss:2.2174688e-06 train accuracy:1.0     valid_loss:0.10903398 valid accuracy:0.9779507
+Epoch: 806
+Steps:17720
+train_loss:2.063801e-06 train accuracy:1.0      valid_loss:0.10983237 valid accuracy:0.97405964
+Epoch: 807
+Steps:17740
+train_loss:1.9101342e-06 train accuracy:1.0     valid_loss:0.10841888 valid accuracy:0.9779507
+Epoch: 808
+Steps:17760
+train_loss:2.466128e-06 train accuracy:1.0      valid_loss:0.10784898 valid accuracy:0.9766537
+Epoch: 809
+Steps:17780
+train_loss:2.3674095e-06 train accuracy:1.0     valid_loss:0.10995959 valid accuracy:0.97924775
+Epoch: 810
+Steps:17800
+train_loss:2.0228176e-06 train accuracy:1.0     valid_loss:0.10313896 valid accuracy:0.9766537
+Steps:17820
+train_loss:1.6869839e-06 train accuracy:1.0     valid_loss:0.10768579 valid accuracy:0.9753567
+Epoch: 811
+Steps:17840
+train_loss:1.743429e-06 train accuracy:1.0      valid_loss:0.10735379 valid accuracy:0.9779507
+Epoch: 812
+Steps:17860
+train_loss:2.0358623e-06 train accuracy:1.0     valid_loss:0.10852985 valid accuracy:0.98054475
+Epoch: 813
+Steps:17880
+train_loss:1.8328356e-06 train accuracy:1.0     valid_loss:0.105294034 valid accuracy:0.9779507
+Epoch: 814
+Steps:17900
+train_loss:2.0805664e-06 train accuracy:1.0     valid_loss:0.10436168 valid accuracy:0.9766537
+Epoch: 815
+Steps:17920
+train_loss:1.9855693e-06 train accuracy:1.0     valid_loss:0.10850891 valid accuracy:0.9766537
+Epoch: 816
+Steps:17940
+train_loss:2.072183e-06 train accuracy:1.0      valid_loss:0.10738982 valid accuracy:0.97924775
+Epoch: 817
+Steps:17960
+train_loss:1.7592606e-06 train accuracy:1.0     valid_loss:0.10925233 valid accuracy:0.9766537
+Epoch: 818
+Steps:17980
+train_loss:1.6167688e-06 train accuracy:1.0     valid_loss:0.104545996 valid accuracy:0.98054475
+Epoch: 819
+Steps:18000
+train_loss:1.7806802e-06 train accuracy:1.0     valid_loss:0.10906519 valid accuracy:0.9779507
+Epoch: 820
+Steps:18020
+train_loss:1.9622864e-06 train accuracy:1.0     valid_loss:0.109927386 valid accuracy:0.9779507
+Steps:18040
+train_loss:2.0446137e-06 train accuracy:1.0     valid_loss:0.11028164 valid accuracy:0.9779507
+Epoch: 821
+Steps:18060
+train_loss:1.7825423e-06 train accuracy:1.0     valid_loss:0.10889297 valid accuracy:0.97924775
+Epoch: 822
+Steps:18080
+train_loss:1.7443608e-06 train accuracy:1.0     valid_loss:0.10601729 valid accuracy:0.9779507
+Epoch: 823
+Steps:18100
+train_loss:1.3997727e-06 train accuracy:1.0     valid_loss:0.10802017 valid accuracy:0.97924775
+Epoch: 824
+Steps:18120
+train_loss:2.291975e-06 train accuracy:1.0      valid_loss:0.109248474 valid accuracy:0.9779507
+Epoch: 825
+Steps:18140
+train_loss:1.0337652e-06 train accuracy:1.0     valid_loss:0.10666743 valid accuracy:0.97924775
+Epoch: 826
+Steps:18160
+train_loss:1.7788195e-06 train accuracy:1.0     valid_loss:0.11440781 valid accuracy:0.9766537
+Epoch: 827
+Steps:18180
+train_loss:1.4435446e-06 train accuracy:1.0     valid_loss:0.10695639 valid accuracy:0.9766537
+Epoch: 828
+Steps:18200
+train_loss:1.503148e-06 train accuracy:1.0      valid_loss:0.10720408 valid accuracy:0.9779507
+Epoch: 829
+Steps:18220
+train_loss:1.3681058e-06 train accuracy:1.0     valid_loss:0.10965195 valid accuracy:0.9766537
+Epoch: 830
+Steps:18240
+train_loss:1.5878983e-06 train accuracy:1.0     valid_loss:0.10589973 valid accuracy:0.9753567
+Steps:18260
+train_loss:1.4088338e-06 train accuracy:1.0     valid_loss:0.10751121 valid accuracy:0.9779507
+Epoch: 831
+Steps:18280
+train_loss:1.70897e-06 train accuracy:1.0       valid_loss:0.109349206 valid accuracy:0.9766537
+Epoch: 832
+Steps:18300
+train_loss:1.5310893e-06 train accuracy:1.0     valid_loss:0.10737715 valid accuracy:0.9766537
+Epoch: 833
+Steps:18320
+train_loss:1.5459902e-06 train accuracy:1.0     valid_loss:0.109445885 valid accuracy:0.9779507
+Epoch: 834
+Steps:18340
+train_loss:1.3736969e-06 train accuracy:1.0     valid_loss:0.10670675 valid accuracy:0.9779507
+Epoch: 835
+Steps:18360
+train_loss:1.1995398e-06 train accuracy:1.0     valid_loss:0.10642602 valid accuracy:0.9753567
+Epoch: 836
+Steps:18380
+train_loss:1.8393541e-06 train accuracy:1.0     valid_loss:0.106434524 valid accuracy:0.9779507
+Epoch: 837
+Steps:18400
+train_loss:1.5022183e-06 train accuracy:1.0     valid_loss:0.11228481 valid accuracy:0.9753567
+Epoch: 838
+Steps:18420
+train_loss:1.6735802e-06 train accuracy:1.0     valid_loss:0.10699898 valid accuracy:0.98054475
+Epoch: 839
+Steps:18440
+train_loss:1.7201484e-06 train accuracy:1.0     valid_loss:0.10764563 valid accuracy:0.9779507
+Epoch: 840
+Steps:18460
+train_loss:1.2507628e-06 train accuracy:1.0     valid_loss:0.11177289 valid accuracy:0.9766537
+Steps:18480
+train_loss:1.3221337e-06 train accuracy:1.0     valid_loss:0.11188499 valid accuracy:0.9753567
+Epoch: 841
+Steps:18500
+train_loss:1.2693883e-06 train accuracy:1.0     valid_loss:0.104807496 valid accuracy:0.97924775
+Epoch: 842
+Steps:18520
+train_loss:1.8551862e-06 train accuracy:1.0     valid_loss:0.10918277 valid accuracy:0.9779507
+Epoch: 843
+Steps:18540
+train_loss:1.5897626e-06 train accuracy:1.0     valid_loss:0.10889953 valid accuracy:0.9753567
+Epoch: 844
+Steps:18560
+train_loss:1.1343463e-06 train accuracy:1.0     valid_loss:0.10624728 valid accuracy:0.98184174
+Epoch: 845
+Steps:18580
+train_loss:1.1641491e-06 train accuracy:1.0     valid_loss:0.111337386 valid accuracy:0.9779507
+Epoch: 846
+Steps:18600
+train_loss:1.7080388e-06 train accuracy:1.0     valid_loss:0.10936813 valid accuracy:0.98054475
+Epoch: 847
+Steps:18620
+train_loss:1.2414498e-06 train accuracy:1.0     valid_loss:0.107726544 valid accuracy:0.98054475
+Epoch: 848
+Steps:18640
+train_loss:1.3159549e-06 train accuracy:1.0     valid_loss:0.10535043 valid accuracy:0.9779507
+Epoch: 849
+Steps:18660
+train_loss:1.5515764e-06 train accuracy:1.0     valid_loss:0.10654958 valid accuracy:0.9766537
+Epoch: 850
+Steps:18680
+train_loss:1.5897621e-06 train accuracy:1.0     valid_loss:0.1067561 valid accuracy:0.9779507
+Steps:18700
+train_loss:1.0331445e-06 train accuracy:1.0     valid_loss:0.10589091 valid accuracy:0.9753567
+Epoch: 851
+Steps:18720
+train_loss:1.3997737e-06 train accuracy:1.0     valid_loss:0.10708488 valid accuracy:0.9753567
+Epoch: 852
+Steps:18740
+train_loss:1.2600758e-06 train accuracy:1.0     valid_loss:0.10701246 valid accuracy:0.97924775
+Epoch: 853
+Steps:18760
+train_loss:1.1352797e-06 train accuracy:1.0     valid_loss:0.10837145 valid accuracy:0.9779507
+Epoch: 854
+Steps:18780
+train_loss:1.1399363e-06 train accuracy:1.0     valid_loss:0.10873147 valid accuracy:0.9779507
+Epoch: 855
+Steps:18800
+train_loss:1.0384224e-06 train accuracy:1.0     valid_loss:0.10680519 valid accuracy:0.9766537
+Epoch: 856
+Steps:18820
+train_loss:1.2647324e-06 train accuracy:1.0     valid_loss:0.10702485 valid accuracy:0.97924775
+Epoch: 857
+Steps:18840
+train_loss:1.0551859e-06 train accuracy:1.0     valid_loss:0.10534043 valid accuracy:0.97924775
+Epoch: 858
+Steps:18860
+train_loss:1.2228236e-06 train accuracy:1.0     valid_loss:0.109588504 valid accuracy:0.9766537
+Epoch: 859
+Steps:18880
+train_loss:1.413744e-06 train accuracy:1.0      valid_loss:0.11203959 valid accuracy:0.9779507
+Epoch: 860
+Steps:18900
+train_loss:1.0039635e-06 train accuracy:1.0     valid_loss:0.10719356 valid accuracy:0.9766537
+Steps:18920
+train_loss:8.669751e-07 train accuracy:1.0      valid_loss:0.10754501 valid accuracy:0.9766537
+Epoch: 861
+Steps:18940
+train_loss:1.1464551e-06 train accuracy:1.0     valid_loss:0.10867007 valid accuracy:0.9779507
+Epoch: 862
+Steps:18960
+train_loss:1.1222405e-06 train accuracy:1.0     valid_loss:0.11124746 valid accuracy:0.9766537
+Epoch: 863
+Steps:18980
+train_loss:9.4156456e-07 train accuracy:1.0     valid_loss:0.10627135 valid accuracy:0.97924775
+Epoch: 864
+Steps:19000
+train_loss:7.925535e-07 train accuracy:1.0      valid_loss:0.10821476 valid accuracy:0.9766537
+Epoch: 865
+Steps:19020
+train_loss:9.983747e-07 train accuracy:1.0      valid_loss:0.10687792 valid accuracy:0.98054475
+Epoch: 866
+Steps:19040
+train_loss:1.0132766e-06 train accuracy:1.0     valid_loss:0.10679986 valid accuracy:0.9766537
+Epoch: 867
+Steps:19060
+train_loss:1.1157217e-06 train accuracy:1.0     valid_loss:0.10488521 valid accuracy:0.9766537
+Epoch: 868
+Steps:19080
+train_loss:7.105976e-07 train accuracy:1.0      valid_loss:0.10796429 valid accuracy:0.9779507
+Epoch: 869
+Steps:19100
+train_loss:1.0328342e-06 train accuracy:1.0     valid_loss:0.10981626 valid accuracy:0.9753567
+Epoch: 870
+Steps:19120
+train_loss:8.307383e-07 train accuracy:1.0      valid_loss:0.10903548 valid accuracy:0.9766537
+Steps:19140
+train_loss:8.0917715e-07 train accuracy:1.0     valid_loss:0.1110273 valid accuracy:0.9766537
+Epoch: 871
+Steps:19160
+train_loss:7.6368315e-07 train accuracy:1.0     valid_loss:0.107777864 valid accuracy:0.9766537
+Epoch: 872
+Steps:19180
+train_loss:1.0356272e-06 train accuracy:1.0     valid_loss:0.10964473 valid accuracy:0.9766537
+Epoch: 873
+Steps:19200
+train_loss:8.4750184e-07 train accuracy:1.0     valid_loss:0.10660047 valid accuracy:0.9779507
+Epoch: 874
+Steps:19220
+train_loss:8.1397445e-07 train accuracy:1.0     valid_loss:0.10722534 valid accuracy:0.9766537
+Epoch: 875
+Steps:19240
+train_loss:9.257327e-07 train accuracy:1.0      valid_loss:0.11027645 valid accuracy:0.9779507
+Epoch: 876
+Steps:19260
+train_loss:9.238696e-07 train accuracy:1.0      valid_loss:0.11005046 valid accuracy:0.9779507
+Epoch: 877
+Steps:19280
+train_loss:8.018666e-07 train accuracy:1.0      valid_loss:0.10454439 valid accuracy:0.97924775
+Epoch: 878
+Steps:19300
+train_loss:7.2549847e-07 train accuracy:1.0     valid_loss:0.109289445 valid accuracy:0.97924775
+Epoch: 879
+Steps:19320
+train_loss:9.220071e-07 train accuracy:1.0      valid_loss:0.106704146 valid accuracy:0.9766537
+Epoch: 880
+Steps:19340
+train_loss:1.0775375e-06 train accuracy:1.0     valid_loss:0.10706992 valid accuracy:0.9766537
+Steps:19360
+train_loss:5.3463515e-07 train accuracy:1.0     valid_loss:0.108811006 valid accuracy:0.97924775
+Epoch: 881
+Steps:19380
+train_loss:9.2107643e-07 train accuracy:1.0     valid_loss:0.11188197 valid accuracy:0.9779507
+Epoch: 882
+Steps:19400
+train_loss:8.037298e-07 train accuracy:1.0      valid_loss:0.10936574 valid accuracy:0.97924775
+Epoch: 883
+Steps:19420
+train_loss:6.696197e-07 train accuracy:1.0      valid_loss:0.109344125 valid accuracy:0.9766537
+Epoch: 884
+Steps:19440
+train_loss:1.2470383e-06 train accuracy:1.0     valid_loss:0.10786133 valid accuracy:0.9779507
+Epoch: 885
+Steps:19460
+train_loss:1.0505294e-06 train accuracy:1.0     valid_loss:0.11125217 valid accuracy:0.9779507
+Epoch: 886
+Steps:19480
+train_loss:8.3260085e-07 train accuracy:1.0     valid_loss:0.109873705 valid accuracy:0.9766537
+Epoch: 887
+Steps:19500
+train_loss:7.5064486e-07 train accuracy:1.0     valid_loss:0.10710789 valid accuracy:0.9766537
+Epoch: 888
+Steps:19520
+train_loss:8.763727e-07 train accuracy:1.0      valid_loss:0.108682595 valid accuracy:0.97924775
+Epoch: 889
+Steps:19540
+train_loss:7.3667445e-07 train accuracy:1.0     valid_loss:0.11063621 valid accuracy:0.9766537
+Epoch: 890
+Steps:19560
+train_loss:7.068723e-07 train accuracy:1.0      valid_loss:0.10989073 valid accuracy:0.97924775
+Steps:19580
+train_loss:5.852087e-07 train accuracy:1.0      valid_loss:0.10580842 valid accuracy:0.9779507
+Epoch: 891
+Steps:19600
+train_loss:8.698537e-07 train accuracy:1.0      valid_loss:0.10788428 valid accuracy:0.97924775
+Epoch: 892
+Steps:19620
+train_loss:7.366748e-07 train accuracy:1.0      valid_loss:0.10533105 valid accuracy:0.97924775
+Epoch: 893
+Steps:19640
+train_loss:7.3667513e-07 train accuracy:1.0     valid_loss:0.10928037 valid accuracy:0.9779507
+Epoch: 894
+Steps:19660
+train_loss:4.3958374e-07 train accuracy:1.0     valid_loss:0.10899765 valid accuracy:0.9779507
+Epoch: 895
+Steps:19680
+train_loss:7.5343814e-07 train accuracy:1.0     valid_loss:0.10995757 valid accuracy:0.9779507
+Epoch: 896
+Steps:19700
+train_loss:6.323671e-07 train accuracy:1.0      valid_loss:0.1100318 valid accuracy:0.9766537
+Epoch: 897
+Steps:19720
+train_loss:6.956967e-07 train accuracy:1.0      valid_loss:0.10921855 valid accuracy:0.9766537
+Epoch: 898
+Steps:19740
+train_loss:7.5809555e-07 train accuracy:1.0     valid_loss:0.10828786 valid accuracy:0.97924775
+Epoch: 899
+Steps:19760
+train_loss:7.7113333e-07 train accuracy:1.0     valid_loss:0.11278492 valid accuracy:0.97924775
+Epoch: 900
+Steps:19780
+train_loss:5.466855e-07 train accuracy:1.0      valid_loss:0.10923873 valid accuracy:0.9779507
+Steps:19800
+train_loss:7.405409e-07 train accuracy:1.0      valid_loss:0.10639359 valid accuracy:0.9779507
+Epoch: 901
+Steps:19820
+train_loss:6.472682e-07 train accuracy:1.0      valid_loss:0.108848564 valid accuracy:0.9766537
+Epoch: 902
+Steps:19840
+train_loss:6.807958e-07 train accuracy:1.0      valid_loss:0.109673545 valid accuracy:0.97924775
+Epoch: 903
+Steps:19860
+train_loss:8.0373e-07 train accuracy:1.0        valid_loss:0.112223715 valid accuracy:0.9766537
+Epoch: 904
+Steps:19880
+train_loss:4.777679e-07 train accuracy:1.0      valid_loss:0.11107005 valid accuracy:0.97924775
+Epoch: 905
+Steps:19900
+train_loss:4.637981e-07 train accuracy:1.0      valid_loss:0.10898783 valid accuracy:0.97405964
+Epoch: 906
+Steps:19920
+train_loss:7.096668e-07 train accuracy:1.0      valid_loss:0.11064292 valid accuracy:0.9766537
+Epoch: 907
+Steps:19940
+train_loss:6.863836e-07 train accuracy:1.0      valid_loss:0.111837626 valid accuracy:0.9779507
+Epoch: 908
+Steps:19960
+train_loss:6.2957315e-07 train accuracy:1.0     valid_loss:0.11206398 valid accuracy:0.9753567
+Epoch: 909
+Steps:19980
+train_loss:6.23054e-07 train accuracy:1.0       valid_loss:0.11092838 valid accuracy:0.9766537
+Epoch: 910
+Steps:20000
+train_loss:4.4703427e-07 train accuracy:1.0     valid_loss:0.10931001 valid accuracy:0.9779507
+Steps:20020
+train_loss:5.201855e-07 train accuracy:1.0      valid_loss:0.11128048 valid accuracy:0.9779507
+Epoch: 911
+Steps:20040
+train_loss:6.6775686e-07 train accuracy:1.0     valid_loss:0.10528605 valid accuracy:0.98054475
+Epoch: 912
+Steps:20060
+train_loss:5.9604537e-07 train accuracy:1.0     valid_loss:0.11013404 valid accuracy:0.9779507
+Epoch: 913
+Steps:20080
+train_loss:6.183972e-07 train accuracy:1.0      valid_loss:0.110322215 valid accuracy:0.9779507
+Epoch: 914
+Steps:20100
+train_loss:5.6065545e-07 train accuracy:1.0     valid_loss:0.107612185 valid accuracy:0.97924775
+Epoch: 915
+Steps:20120
+train_loss:5.345785e-07 train accuracy:1.0      valid_loss:0.112006955 valid accuracy:0.97924775
+Epoch: 916
+Steps:20140
+train_loss:5.4109773e-07 train accuracy:1.0     valid_loss:0.10649487 valid accuracy:0.98054475
+Epoch: 917
+Steps:20160
+train_loss:5.811444e-07 train accuracy:1.0      valid_loss:0.110327005 valid accuracy:0.9766537
+Epoch: 918
+Steps:20180
+train_loss:4.9360017e-07 train accuracy:1.0     valid_loss:0.10802399 valid accuracy:0.9779507
+Epoch: 919
+Steps:20200
+train_loss:4.98257e-07 train accuracy:1.0       valid_loss:0.10565795 valid accuracy:0.9779507
+Epoch: 920
+Steps:20220
+train_loss:6.4913064e-07 train accuracy:1.0     valid_loss:0.10696571 valid accuracy:0.97924775
+Steps:20240
+train_loss:6.935803e-07 train accuracy:1.0      valid_loss:0.10444255 valid accuracy:0.97924775
+Epoch: 921
+Steps:20260
+train_loss:4.069876e-07 train accuracy:1.0      valid_loss:0.10890397 valid accuracy:0.9766537
+Epoch: 922
+Steps:20280
+train_loss:5.44823e-07 train accuracy:1.0       valid_loss:0.110391185 valid accuracy:0.9766537
+Epoch: 923
+Steps:20300
+train_loss:4.2375137e-07 train accuracy:1.0     valid_loss:0.108041644 valid accuracy:0.97924775
+Epoch: 924
+Steps:20320
+train_loss:2.5983883e-07 train accuracy:1.0     valid_loss:0.109105326 valid accuracy:0.9753567
+Epoch: 925
+Steps:20340
+train_loss:4.526222e-07 train accuracy:1.0      valid_loss:0.11086352 valid accuracy:0.9753567
+Epoch: 926
+Steps:20360
+train_loss:4.125755e-07 train accuracy:1.0      valid_loss:0.11017436 valid accuracy:0.9779507
+Epoch: 927
+Steps:20380
+train_loss:4.945317e-07 train accuracy:1.0      valid_loss:0.112331614 valid accuracy:0.9753567
+Epoch: 928
+Steps:20400
+train_loss:5.150207e-07 train accuracy:1.0      valid_loss:0.113816574 valid accuracy:0.9779507
+Epoch: 929
+Steps:20420
+train_loss:4.46103e-07 train accuracy:1.0       valid_loss:0.11030666 valid accuracy:0.9779507
+Epoch: 930
+Steps:20440
+train_loss:5.62518e-07 train accuracy:1.0       valid_loss:0.11023691 valid accuracy:0.98184174
+Steps:20460
+train_loss:4.0820117e-07 train accuracy:1.0     valid_loss:0.11069238 valid accuracy:0.97924775
+Epoch: 931
+Steps:20480
+train_loss:5.6903735e-07 train accuracy:1.0     valid_loss:0.10865804 valid accuracy:0.9779507
+Epoch: 932
+Steps:20500
+train_loss:4.6752342e-07 train accuracy:1.0     valid_loss:0.11007382 valid accuracy:0.9779507
+Epoch: 933
+Steps:20520
+train_loss:3.8463583e-07 train accuracy:1.0     valid_loss:0.10679674 valid accuracy:0.97924775
+Epoch: 934
+Steps:20540
+train_loss:4.190948e-07 train accuracy:1.0      valid_loss:0.109629236 valid accuracy:0.9779507
+Epoch: 935
+Steps:20560
+train_loss:4.7124863e-07 train accuracy:1.0     valid_loss:0.10944011 valid accuracy:0.98054475
+Epoch: 936
+Steps:20580
+train_loss:5.0757006e-07 train accuracy:1.0     valid_loss:0.1060611 valid accuracy:0.9753567
+Epoch: 937
+Steps:20600
+train_loss:3.324819e-07 train accuracy:1.0      valid_loss:0.109071545 valid accuracy:0.98054475
+Epoch: 938
+Steps:20620
+train_loss:5.057076e-07 train accuracy:1.0      valid_loss:0.10878334 valid accuracy:0.98054475
+Epoch: 939
+Steps:20640
+train_loss:4.842872e-07 train accuracy:1.0      valid_loss:0.109650716 valid accuracy:0.9779507
+Epoch: 940
+Steps:20660
+train_loss:4.3678978e-07 train accuracy:1.0     valid_loss:0.10859981 valid accuracy:0.9779507
+Steps:20680
+train_loss:3.9375152e-07 train accuracy:1.0     valid_loss:0.10765923 valid accuracy:0.9779507
+Epoch: 941
+Steps:20700
+train_loss:4.824245e-07 train accuracy:1.0      valid_loss:0.107853614 valid accuracy:0.97924775
+Epoch: 942
+Steps:20720
+train_loss:3.417951e-07 train accuracy:1.0      valid_loss:0.10964015 valid accuracy:0.97924775
+Epoch: 943
+Steps:20740
+train_loss:3.6880337e-07 train accuracy:1.0     valid_loss:0.111144684 valid accuracy:0.97924775
+Epoch: 944
+Steps:20760
+train_loss:3.2316868e-07 train accuracy:1.0     valid_loss:0.107538395 valid accuracy:0.9779507
+Epoch: 945
+Steps:20780
+train_loss:3.6880337e-07 train accuracy:1.0     valid_loss:0.1087729 valid accuracy:0.9779507
+Epoch: 946
+Steps:20800
+train_loss:3.2782532e-07 train accuracy:1.0     valid_loss:0.10838442 valid accuracy:0.9779507
+Epoch: 947
+Steps:20820
+train_loss:4.1443815e-07 train accuracy:1.0     valid_loss:0.10993171 valid accuracy:0.9766537
+Epoch: 948
+Steps:20840
+train_loss:3.7904798e-07 train accuracy:1.0     valid_loss:0.10624384 valid accuracy:0.97924775
+Epoch: 949
+Steps:20860
+train_loss:2.905724e-07 train accuracy:1.0      valid_loss:0.112981476 valid accuracy:0.9779507
+Epoch: 950
+Steps:20880
+train_loss:4.377212e-07 train accuracy:1.0      valid_loss:0.10883594 valid accuracy:0.9766537
+Steps:20900
+train_loss:3.2511602e-07 train accuracy:1.0     valid_loss:0.110007875 valid accuracy:0.9779507
+Epoch: 951
+Steps:20920
+train_loss:3.715974e-07 train accuracy:1.0      valid_loss:0.10890402 valid accuracy:0.9766537
+Epoch: 952
+Steps:20940
+train_loss:4.51691e-07 train accuracy:1.0       valid_loss:0.112070255 valid accuracy:0.98054475
+Epoch: 953
+Steps:20960
+train_loss:2.7194594e-07 train accuracy:1.0     valid_loss:0.10957539 valid accuracy:0.9779507
+Epoch: 954
+Steps:20980
+train_loss:3.0733622e-07 train accuracy:1.0     valid_loss:0.10924606 valid accuracy:0.9779507
+Epoch: 955
+Steps:21000
+train_loss:3.939491e-07 train accuracy:1.0      valid_loss:0.110605955 valid accuracy:0.9766537
+Epoch: 956
+Steps:21020
+train_loss:2.9802305e-07 train accuracy:1.0     valid_loss:0.10919716 valid accuracy:0.9779507
+Epoch: 957
+Steps:21040
+train_loss:2.2910518e-07 train accuracy:1.0     valid_loss:0.11053865 valid accuracy:0.9779507
+Epoch: 958
+Steps:21060
+train_loss:2.8219054e-07 train accuracy:1.0     valid_loss:0.10831633 valid accuracy:0.98054475
+Epoch: 959
+Steps:21080
+train_loss:3.1199284e-07 train accuracy:1.0     valid_loss:0.112416655 valid accuracy:0.9779507
+Epoch: 960
+Steps:21100
+train_loss:2.8032792e-07 train accuracy:1.0     valid_loss:0.11021445 valid accuracy:0.9779507
+Steps:21120
+train_loss:3.8652675e-07 train accuracy:1.0     valid_loss:0.11528767 valid accuracy:0.9766537
+Epoch: 961
+Steps:21140
+train_loss:3.5669615e-07 train accuracy:1.0     valid_loss:0.113017954 valid accuracy:0.9779507
+Epoch: 962
+Steps:21160
+train_loss:2.5983883e-07 train accuracy:1.0     valid_loss:0.108236074 valid accuracy:0.98054475
+Epoch: 963
+Steps:21180
+train_loss:3.3620717e-07 train accuracy:1.0     valid_loss:0.11355542 valid accuracy:0.9779507
+Epoch: 964
+Steps:21200
+train_loss:3.4552045e-07 train accuracy:1.0     valid_loss:0.11000209 valid accuracy:0.9779507
+Epoch: 965
+Steps:21220
+train_loss:2.8032792e-07 train accuracy:1.0     valid_loss:0.10849557 valid accuracy:0.97924775
+Epoch: 966
+Steps:21240
+train_loss:3.4272637e-07 train accuracy:1.0     valid_loss:0.10912306 valid accuracy:0.9779507
+Epoch: 967
+Steps:21260
+train_loss:4.0419366e-07 train accuracy:1.0     valid_loss:0.1096209 valid accuracy:0.9779507
+Epoch: 968
+Steps:21280
+train_loss:2.8405321e-07 train accuracy:1.0     valid_loss:0.10795639 valid accuracy:0.98054475
+Epoch: 969
+Steps:21300
+train_loss:2.887098e-07 train accuracy:1.0      valid_loss:0.10834823 valid accuracy:0.9779507
+Epoch: 970
+Steps:21320
+train_loss:2.2258598e-07 train accuracy:1.0     valid_loss:0.1137502 valid accuracy:0.97924775
+Steps:21340
+train_loss:3.0705408e-07 train accuracy:1.0     valid_loss:0.10983256 valid accuracy:0.9779507
+Epoch: 971
+Steps:21360
+train_loss:3.2596267e-07 train accuracy:1.0     valid_loss:0.108165435 valid accuracy:0.9779507
+Epoch: 972
+Steps:21380
+train_loss:3.2409997e-07 train accuracy:1.0     valid_loss:0.11423671 valid accuracy:0.97924775
+Epoch: 973
+Steps:21400
+train_loss:2.2444857e-07 train accuracy:1.0     valid_loss:0.10950101 valid accuracy:0.97924775
+Epoch: 974
+Steps:21420
+train_loss:2.4307508e-07 train accuracy:1.0     valid_loss:0.1116124 valid accuracy:0.9779507
+Epoch: 975
+Steps:21440
+train_loss:3.259626e-07 train accuracy:1.0      valid_loss:0.11189309 valid accuracy:0.98054475
+Epoch: 976
+Steps:21460
+train_loss:2.3841842e-07 train accuracy:1.0     valid_loss:0.11071946 valid accuracy:0.97924775
+Epoch: 977
+Steps:21480
+train_loss:2.2072335e-07 train accuracy:1.0     valid_loss:0.111594014 valid accuracy:0.9779507
+Epoch: 978
+Steps:21500
+train_loss:2.4586902e-07 train accuracy:1.0     valid_loss:0.11184989 valid accuracy:0.9779507
+Epoch: 979
+Steps:21520
+train_loss:2.4307505e-07 train accuracy:1.0     valid_loss:0.11000134 valid accuracy:0.9753567
+Epoch: 980
+Steps:21540
+train_loss:2.1047877e-07 train accuracy:1.0     valid_loss:0.11157938 valid accuracy:0.9779507
+Steps:21560
+train_loss:2.2035645e-07 train accuracy:1.0     valid_loss:0.110725515 valid accuracy:0.9766537
+Epoch: 981
+Steps:21580
+train_loss:2.1979199e-07 train accuracy:1.0     valid_loss:0.11198598 valid accuracy:0.9766537
+Epoch: 982
+Steps:21600
+train_loss:2.4866293e-07 train accuracy:1.0     valid_loss:0.11174089 valid accuracy:0.9779507
+Epoch: 983
+Steps:21620
+train_loss:2.3376185e-07 train accuracy:1.0     valid_loss:0.10827646 valid accuracy:0.9779507
+Epoch: 984
+Steps:21640
+train_loss:2.0395956e-07 train accuracy:1.0     valid_loss:0.11134502 valid accuracy:0.9766537
+Epoch: 985
+Steps:21660
+train_loss:2.440064e-07 train accuracy:1.0      valid_loss:0.111284845 valid accuracy:0.97924775
+Epoch: 986
+Steps:21680
+train_loss:2.095474e-07 train accuracy:1.0      valid_loss:0.10974132 valid accuracy:0.97924775
+Epoch: 987
+Steps:21700
+train_loss:2.4866299e-07 train accuracy:1.0     valid_loss:0.112525426 valid accuracy:0.9779507
+Epoch: 988
+Steps:21720
+train_loss:1.9650898e-07 train accuracy:1.0     valid_loss:0.11274195 valid accuracy:0.9779507
+Epoch: 989
+Steps:21740
+train_loss:2.1327277e-07 train accuracy:1.0     valid_loss:0.110475495 valid accuracy:0.9766537
+Epoch: 990
+Steps:21760
+train_loss:2.505256e-07 train accuracy:1.0      valid_loss:0.108468 valid accuracy:0.9779507
+Steps:21780
+train_loss:3.6485244e-07 train accuracy:1.0     valid_loss:0.11106899 valid accuracy:0.9779507
+Epoch: 991
+Steps:21800
+train_loss:1.7788253e-07 train accuracy:1.0     valid_loss:0.1104417 valid accuracy:0.9779507
+Epoch: 992
+Steps:21820
+train_loss:2.2258598e-07 train accuracy:1.0     valid_loss:0.11254653 valid accuracy:0.97924775
+Epoch: 993
+Steps:21840
+train_loss:1.8719577e-07 train accuracy:1.0     valid_loss:0.11043902 valid accuracy:0.9779507
+Epoch: 994
+Steps:21860
+train_loss:1.8440177e-07 train accuracy:1.0     valid_loss:0.11072511 valid accuracy:0.9766537
+Epoch: 995
+Steps:21880
+train_loss:2.9709173e-07 train accuracy:1.0     valid_loss:0.11126168 valid accuracy:0.9779507
+Epoch: 996
+Steps:21900
+train_loss:2.6449544e-07 train accuracy:1.0     valid_loss:0.11536445 valid accuracy:0.97924775
+Epoch: 997
+Steps:21920
+train_loss:1.2852247e-07 train accuracy:1.0     valid_loss:0.10919715 valid accuracy:0.98054475
+Epoch: 998
+Steps:21940
+train_loss:2.0582219e-07 train accuracy:1.0     valid_loss:0.11330422 valid accuracy:0.9779507
+Epoch: 999
+Steps:21960
+train_loss:1.4342362e-07 train accuracy:1.0     valid_loss:0.108211316 valid accuracy:0.97924775
+Epoch: 1000
+Steps:21980
+train_loss:2.1513543e-07 train accuracy:1.0     valid_loss:0.11572742 valid accuracy:0.9766537
+Steps:22000
+train_loss:1.5533327e-07 train accuracy:1.0     valid_loss:0.109980404 valid accuracy:0.9766537
+2019-06-17 21:53:14.888874: W tensorflow/core/common_runtime/bfc_allocator.cc:215] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-17 21:53:14.901054: W tensorflow/core/common_runtime/bfc_allocator.cc:215] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-17 21:53:14.921819: W tensorflow/core/common_runtime/bfc_allocator.cc:215] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2019-06-17 21:53:14.932403: W tensorflow/core/common_runtime/bfc_allocator.cc:215] Allocator (GPU_0_bfc) ran out of memory trying to allocate 3.17GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+test_loss:0.14001727 test accuracy:0.9598997
+loading ASRCNN model...
+2019-06-17 21:54:30.840213: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+2019-06-17 21:54:31.129556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-17 21:54:31.147903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0
+2019-06-17 21:54:31.150209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N
+2019-06-17 21:54:31.152915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3010 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1050 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+===============
+真实lable: 0
+识别结果为:0
+===============
+真实lable: 1
+识别结果为:1
+===============
+真实lable: 3
+识别结果为:3
+===============
+===============
+真实lable: 5
+识别结果为:5
+===============
+真实lable: 6
+识别结果为:6
+===============
+真实lable: 7
+识别结果为:7
+===============
+真实lable: 8
+识别结果为:8
+===============
+真实lable: 9
+识别结果为:9
+Congratulation!
